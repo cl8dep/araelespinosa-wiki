@@ -1,0 +1,40 @@
+# La Wiki de Arael Espinosa
+
+> Guía práctica sobre migración y trámites consulares para ciudadanos cubanos en Uruguay y la región. Cubre residencia legal, cédula de identidad, pasaporte cubano, visas y legalización de documentos. Información actualizada con fuentes oficiales.
+
+El sitio está organizado por país y tipo de trámite. Cada página detalla requisitos, costos, tiempos y formularios necesarios. El autor es gestor migratorio con contacto directo vía WhatsApp y correo electrónico.
+
+- Contacto gestoría: gestoria@araelespinosa.me
+- WhatsApp: +598 99 598 034
+- Sitio: https://wiki.araelespinosa.me
+
+## Uruguay
+
+- [Residencia legal](https://wiki.araelespinosa.me/docs/migration/uruguay/tramites/residencia-legal): Requisitos, costos y pasos para obtener la residencia legal en Uruguay.
+- [Residencia por arraigo](https://wiki.araelespinosa.me/docs/migration/uruguay/tramites/residencia-por-arraigo): Alternativa para quienes ya llevan tiempo viviendo en Uruguay sin documentación.
+- [Renovación de cédula — solicitante de refugio](https://wiki.araelespinosa.me/docs/migration/uruguay/tramites/cedula/renovacion-cedula-solicitante-refugio): Cómo renovar la cédula uruguaya en condición de solicitante de refugio.
+- [Tarjetas de débito sin cuenta bancaria](https://wiki.araelespinosa.me/docs/migration/uruguay/banking-and-finances/tarjetas-debito-no-bancos): Opciones de pago y cobro para migrantes sin acceso a banca tradicional.
+- [Envío de documentos](https://wiki.araelespinosa.me/docs/migration/uruguay/otros/envio-de-documentos): Cómo enviar documentos desde Uruguay hacia Cuba u otros países.
+
+## Consulado de Cuba en Uruguay (Montevideo)
+
+- [Renovación o confección de pasaporte cubano](https://wiki.araelespinosa.me/docs/migration/uruguay/consulado-cuba-en-uruguay/renovacion-pasaporte): Requisitos, costos en pesos uruguayos, formas de pago y planillas descargables.
+- [Contacto — Consulado de Cuba en Uruguay](https://wiki.araelespinosa.me/docs/migration/uruguay/consulado-cuba-en-uruguay/contacto): Dirección (Feliciano Rodríguez 2690, Parque Batlle), horarios, teléfono y WhatsApp.
+
+## Cuba — Consulado de Uruguay en La Habana
+
+- [Visa de turismo](https://wiki.araelespinosa.me/docs/migration/cuba/consulado-uruguay-en-cuba/visa-de-turismo): Requisitos y procedimiento para obtener visa de turismo al Uruguay desde Cuba.
+- [Visa de reunificación familiar](https://wiki.araelespinosa.me/docs/migration/cuba/consulado-uruguay-en-cuba/visa-de-reunificacion-familiar): Para ciudadanos cubanos con familiares residentes en Uruguay.
+- [Visa de trabajo](https://wiki.araelespinosa.me/docs/migration/cuba/consulado-uruguay-en-cuba/visa-de-trabajo): Requisitos para visa laboral otorgada por el Consulado de Uruguay en Cuba.
+- [Legalización de documentos](https://wiki.araelespinosa.me/docs/migration/cuba/consulado-uruguay-en-cuba/legalizacion-documentos): Apostilla y legalización de documentos cubanos ante el Consulado uruguayo.
+- [Recomendaciones — carta de invitación](https://wiki.araelespinosa.me/docs/migration/cuba/consulado-uruguay-en-cuba/recomendaciones-carta-invitacion): Cómo redactar y presentar una carta de invitación válida para el consulado.
+- [Contacto — Consulado de Uruguay en Cuba](https://wiki.araelespinosa.me/docs/migration/cuba/consulado-uruguay-en-cuba/contacto): Dirección (Calle 36 N° 716, Miramar, La Habana), teléfono y correo oficial.
+
+## Panamá
+
+- [Visa de tránsito para cubanos](https://wiki.araelespinosa.me/docs/migration/panama/visa-de-transito): Requisitos para transitar por Panamá con destino a Uruguay u otros países.
+
+## Optional
+
+- [Términos y condiciones](https://wiki.araelespinosa.me/terms): Aviso legal, descargo de responsabilidad y alcance de la información publicada.
+- [Introducción general](https://wiki.araelespinosa.me/docs/migration/intro): Contexto sobre el sitio, audiencia objetivo y cómo usar la documentación.
