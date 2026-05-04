@@ -78,6 +78,10 @@ const config: Config = {
         //   onInlineAuthors: 'throw',
         //   onUntruncatedBlogPosts: 'warn',
         // },
+        gtag: {
+          trackingID: 'G-NCTK7XCTSL',
+          anonymizeIP: true,
+        },
         theme: {
           customCss: './src/css/custom.css',
         },
