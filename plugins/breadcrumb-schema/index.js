@@ -4,7 +4,6 @@
 
 const fs = require('fs');
 const path = require('path');
-const { JSDOM } = require('jsdom');
 
 const LABEL_MAP = {
   // Route segments → human-readable labels
@@ -95,6 +94,9 @@ module.exports = function breadcrumbSchemaPlugin(_context, _options) {
   return {
     name: 'breadcrumb-schema-plugin',
     async postBuild({ siteConfig, routesPaths, outDir }) {
+      // Lazy-require jsdom inside postBuild to avoid jiti evaluation errors
+      // when Docusaurus loads the plugin config during the build setup phase.
+      const { JSDOM } = require('jsdom');
       const baseUrl = siteConfig.url;
       const ignored = ['/404', '/search', '/tags'];
 
