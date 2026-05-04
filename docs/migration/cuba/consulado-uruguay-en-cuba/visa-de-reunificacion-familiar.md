@@ -13,6 +13,59 @@ keywords:
 tags: [visa, migración, trámites, reunificación, uruguay]
 ---
 
+<script type="application/ld+json">{`{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "@id": "https://blog.araelespinosa.me/docs/migration/cuba/consulado-uruguay-en-cuba/visa-de-reunificacion-familiar#howto",
+  "name": "Cómo solicitar la Visa de Reunificación Familiar para Uruguay desde Cuba",
+  "description": "Pasos para tramitar la visa de reunificación familiar uruguaya, que permite reencontrarse con residentes legales en Uruguay.",
+  "inLanguage": "es",
+  "step": [
+    {
+      "@type": "HowToStep",
+      "position": 1,
+      "name": "Reunir la documentación",
+      "text": "Recopilar formulario de solicitud, copia de cédula del residente en Uruguay, pasaporte de la persona a reunificar, acta de estado civil legalizada, historia laboral del BPS e ingresos del residente."
+    },
+    {
+      "@type": "HowToStep",
+      "position": 2,
+      "name": "Enviar la solicitud por correo",
+      "text": "Enviar toda la documentación escaneada en formato PDF o JPG a reunificacion@mrree.gub.uy, en un único correo con asunto: REUNIFICACIÓN (nombres y nacionalidad)."
+    },
+    {
+      "@type": "HowToStep",
+      "position": 3,
+      "name": "Aguardar la evaluación",
+      "text": "El Ministerio de Relaciones Exteriores evaluará el expediente. Si se cumplen los requisitos, notificará al interesado y remitirá la documentación al Consulado uruguayo correspondiente."
+    }
+  ]
+}`}</script>
+
+<script type="application/ld+json">{`{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "@id": "https://blog.araelespinosa.me/docs/migration/cuba/consulado-uruguay-en-cuba/visa-de-reunificacion-familiar#faq",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "¿Puedo reunificar a varias personas a la vez?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Sí, puede reunificar a varias personas simultáneamente, siempre que cumpla con los requisitos para cada una. Por ejemplo, puede reunificar a sus padres e hijos en la misma solicitud."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Puedo enviar la documentación de varias personas en el mismo correo?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Sí, de hecho es lo recomendado. De esta manera todas las personas quedan vinculadas al mismo expediente."
+      }
+    }
+  ]
+}`}</script>
+
 # Visa de Reunficación Familiar
 
 :::warning

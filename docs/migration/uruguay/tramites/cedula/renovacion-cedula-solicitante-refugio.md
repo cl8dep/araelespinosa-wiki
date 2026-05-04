@@ -12,6 +12,83 @@ keywords:
 tags: [trámites, refugio, cédula, migración, uruguay]
 ---
 
+<script type="application/ld+json">{`{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "@id": "https://blog.araelespinosa.me/docs/migration/uruguay/tramites/cedula/renovacion-cedula-solicitante-refugio#howto",
+  "name": "Cómo renovar la cédula de identidad siendo solicitante de refugio en Uruguay",
+  "description": "Proceso de 3 etapas para renovar la cédula de identidad uruguaya como solicitante de refugio: constancia CORE, certificado migratorio y cita en la DNIC.",
+  "inLanguage": "es",
+  "step": [
+    {
+      "@type": "HowToStep",
+      "position": 1,
+      "name": "Obtener la Constancia de Solicitante de Refugio (CORE)",
+      "text": "Enviar un correo a secretaria.core@mrree.gub.uy solicitando la constancia con los datos personales y número de cédula. La constancia tiene vigencia máxima de 180 días."
+    },
+    {
+      "@type": "HowToStep",
+      "position": 2,
+      "name": "Tramitar el Certificado Migratorio en línea",
+      "text": "Ingresar al portal de la Dirección Nacional de Migración con usuario gub.uy. Seleccionar categoría Solicitante de Refugio, adjuntar la constancia de la CORE, proporcionar el número de expediente y cargar imágenes de la cédula. Costo: 55.70 UI.",
+      "url": "https://bpmgob.minterior.gub.uy/autenticacion/login?redirect=https://bpmgob.minterior.gub.uy/tramites/iniciar/368"
+    },
+    {
+      "@type": "HowToStep",
+      "position": 3,
+      "name": "Agendar cita en la DNIC para renovar la cédula",
+      "text": "Con el certificado migratorio aprobado, agendar la cita por Internet en gub.uy o presencialmente en Abitab o RedPagos. Llevar la cédula anterior."
+    }
+  ],
+  "totalTime": "P1M",
+  "estimatedCost": {
+    "@type": "MonetaryAmount",
+    "currency": "UYU",
+    "value": "55.70",
+    "name": "55.70 Unidades Indexadas (UI) — certificado migratorio"
+  }
+}`}</script>
+
+<script type="application/ld+json">{`{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "@id": "https://blog.araelespinosa.me/docs/migration/uruguay/tramites/cedula/renovacion-cedula-solicitante-refugio#faq",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "¿Puedo iniciar el trámite de renovación de cédula si ya venció?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Sí, puede iniciarlo incluso con la cédula ya vencida. También puede iniciarlo hasta 6 meses antes del vencimiento."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Necesito la constancia de refugio actualizada para renovar la cédula?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Sí, la constancia emitida por la CORE tiene una vigencia de 180 días y debe estar vigente al momento de tramitar el certificado migratorio."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Puedo hacer el trámite de renovación de cédula desde fuera de Uruguay?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No, debe estar físicamente en Uruguay al momento de iniciar estos trámites."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Cuánto demora el proceso completo de renovación de cédula para solicitantes de refugio?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "La constancia de la CORE puede demorar unos días en ser emitida. El certificado migratorio tarda aproximadamente 15 días en ser revisado. La disponibilidad de agenda en la DNIC varía según el momento."
+      }
+    }
+  ]
+}`}</script>
+
 # Renovación de Cédula para Solicitantes de Refugio
 
 Si sos solicitante de refugio en Uruguay y necesitás renovar tu cédula de identidad, el proceso tiene **3 etapas** que debés completar en orden:

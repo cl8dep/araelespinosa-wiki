@@ -14,6 +14,62 @@ keywords:
 tags: [visa, turismo, migración, trámites, uruguay, invitación]
 ---
 
+<script type="application/ld+json">{`{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "@id": "https://blog.araelespinosa.me/docs/migration/cuba/consulado-uruguay-en-cuba/visa-de-turismo#howto",
+  "name": "Cómo solicitar la Visa de Turismo para Uruguay desde Cuba",
+  "description": "Pasos para tramitar la visa de turismo uruguaya en el Consulado de Uruguay en La Habana, Cuba.",
+  "inLanguage": "es",
+  "step": [
+    {
+      "@type": "HowToStep",
+      "position": 1,
+      "name": "Solicitar cita para el pago anticipado",
+      "text": "Enviar un correo a cdlahabana@mrree.gub.uy con nombre completo y número de pasaporte, indicando en el asunto: PAGO PARA TRÁMITE DE VISA."
+    },
+    {
+      "@type": "HowToStep",
+      "position": 2,
+      "name": "Realizar el pago y enviar la documentación",
+      "text": "Tras el pago, enviar al Consulado toda la documentación requerida junto al comprobante de pago en un único correo, con asunto: Solicitud de visa de turismo de [nombre completo]. Plazo máximo: 30 días desde el pago."
+    },
+    {
+      "@type": "HowToStep",
+      "position": 3,
+      "name": "Esperar la evaluación del expediente",
+      "text": "El Consulado revisará los expedientes por orden de llegada y notificará por correo la cita para la entrevista."
+    },
+    {
+      "@type": "HowToStep",
+      "position": 4,
+      "name": "Recibir la resolución",
+      "text": "Si la visa es aprobada, se recibirá cita para el estampado, que debe realizarse dentro de los 60 días corridos. Si es denegada, se debe esperar un mínimo de 60 días para una nueva solicitud."
+    }
+  ],
+  "estimatedCost": {
+    "@type": "MonetaryAmount",
+    "currency": "EUR",
+    "value": "45"
+  }
+}`}</script>
+
+<script type="application/ld+json">{`{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "@id": "https://blog.araelespinosa.me/docs/migration/cuba/consulado-uruguay-en-cuba/visa-de-turismo#faq",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "¿Cuánto tiempo tengo para enviar la documentación después del pago anticipado de la visa de turismo?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Una vez realizado el pago anticipado tiene 1 mes natural (30 días corridos) para enviar la documentación. Si vence el plazo, el pago expirará y deberá pagar nuevamente. Se recomienda pagar solo cuando ya se cuenta con todos los requisitos."
+      }
+    }
+  ]
+}`}</script>
+
 # Visa de Turismo
 
 ## Generalidades

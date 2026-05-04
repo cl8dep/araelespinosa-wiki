@@ -1,5 +1,5 @@
 ---
-sidebar_position: 2
+sidebar_position: 3
 title: Residencia por Arraigo
 description: Guía sobre el trámite de Residencia por Arraigo en Uruguay para solicitantes de refugio y otras personas en situación irregular.
 ---
@@ -7,6 +7,7 @@ description: Guía sobre el trámite de Residencia por Arraigo en Uruguay para s
 <script type="application/ld+json">{`{
   "@context": "https://schema.org",
   "@type": "HowTo",
+  "@id": "https://blog.araelespinosa.me/docs/migration/uruguay/tramites/residencia-por-arraigo#howto",
   "name": "Cómo obtener la Residencia por Arraigo en Uruguay",
   "description": "Pasos para regularizar la situación migratoria en Uruguay mediante el programa Residencia por Arraigo (Decreto 138/024), disponible para ex solicitantes de refugio.",
   "inLanguage": "es",
@@ -47,8 +48,41 @@ description: Guía sobre el trámite de Residencia por Arraigo en Uruguay para s
   "estimatedCost": {
     "@type": "MonetaryAmount",
     "currency": "UYU",
-    "value": "557.30 UI"
+    "value": "557.30",
+    "name": "557.30 Unidades Indexadas (UI)"
   }
+}`}</script>
+
+<script type="application/ld+json">{`{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "@id": "https://blog.araelespinosa.me/docs/migration/uruguay/tramites/residencia-por-arraigo#faq",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "¿Puedo trabajar mientras espero la residencia por arraigo?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Sí, una vez iniciado el trámite y obtenido el certificado de residencia en trámite, puede trabajar legalmente en Uruguay."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Puedo salir del país mientras tramito la residencia por arraigo?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No es recomendable, pero en calidad de Residente en Trámite puede salir de Uruguay, previa tramitación del permiso de reingreso."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Cuánto demora el trámite de residencia por arraigo?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Varía según el caso, pero puede demorar entre 1 y 6 meses."
+      }
+    }
+  ]
 }`}</script>
 
 # Residencia por Arraigo en Uruguay

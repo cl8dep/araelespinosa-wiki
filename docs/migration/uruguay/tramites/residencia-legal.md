@@ -1,5 +1,5 @@
 ---
-sidebar_position: 1
+sidebar_position: 2
 title: Residencia legal definitiva
 description: Información detallada sobre cómo obtener la Residencia Legal Definitiva en Uruguay, incluyendo pasos del trámite, requisitos, costos y recomendaciones.
 keywords:
@@ -16,6 +16,7 @@ tags: [migración, trámites, residencia, uruguay, legalización, permanencia]
 <script type="application/ld+json">{`{
   "@context": "https://schema.org",
   "@type": "HowTo",
+  "@id": "https://blog.araelespinosa.me/docs/migration/uruguay/tramites/residencia-legal#howto",
   "name": "Cómo obtener la Residencia Legal Definitiva en Uruguay",
   "description": "Pasos para obtener la residencia legal permanente en Uruguay como extranjero, incluyendo requisitos, documentación y costos.",
   "inLanguage": "es",
@@ -62,8 +63,25 @@ tags: [migración, trámites, residencia, uruguay, legalización, permanencia]
   "estimatedCost": {
     "@type": "MonetaryAmount",
     "currency": "UYU",
-    "value": "557.30 UI"
+    "value": "557.30",
+    "name": "557.30 Unidades Indexadas (UI)"
   }
+}`}</script>
+
+<script type="application/ld+json">{`{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "@id": "https://blog.araelespinosa.me/docs/migration/uruguay/tramites/residencia-legal#faq",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "¿Cómo puedo saber la disponibilidad de las oficinas para agendar mi cita?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Puede hacer la consulta presencialmente en la Dirección Nacional de Migración en el mostrador de informes, o llamando por teléfono a las Inspectorías de Migración distribuidas en todo el país. El listado completo está disponible en el sitio oficial de Uruguay."
+      }
+    }
+  ]
 }`}</script>
 
 # Residencia Legal Definitiva (permanente)
