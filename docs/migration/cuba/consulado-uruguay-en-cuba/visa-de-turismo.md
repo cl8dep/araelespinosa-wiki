@@ -17,7 +17,7 @@ tags: [visa, turismo, migración, trámites, uruguay, invitación]
 <script type="application/ld+json">{`{
   "@context": "https://schema.org",
   "@type": "HowTo",
-  "@id": "https://blog.araelespinosa.me/docs/migration/cuba/consulado-uruguay-en-cuba/visa-de-turismo#howto",
+  "@id": "https://wiki.araelespinosa.me/docs/migration/cuba/consulado-uruguay-en-cuba/visa-de-turismo#howto",
   "name": "Cómo solicitar la Visa de Turismo para Uruguay desde Cuba",
   "description": "Pasos para tramitar la visa de turismo uruguaya en el Consulado de Uruguay en La Habana, Cuba.",
   "inLanguage": "es",
@@ -57,7 +57,7 @@ tags: [visa, turismo, migración, trámites, uruguay, invitación]
 <script type="application/ld+json">{`{
   "@context": "https://schema.org",
   "@type": "FAQPage",
-  "@id": "https://blog.araelespinosa.me/docs/migration/cuba/consulado-uruguay-en-cuba/visa-de-turismo#faq",
+  "@id": "https://wiki.araelespinosa.me/docs/migration/cuba/consulado-uruguay-en-cuba/visa-de-turismo#faq",
   "mainEntity": [
     {
       "@type": "Question",

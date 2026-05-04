@@ -16,7 +16,7 @@ tags: [migración, trámites, residencia, uruguay, legalización, permanencia]
 <script type="application/ld+json">{`{
   "@context": "https://schema.org",
   "@type": "HowTo",
-  "@id": "https://blog.araelespinosa.me/docs/migration/uruguay/tramites/residencia-legal#howto",
+  "@id": "https://wiki.araelespinosa.me/docs/migration/uruguay/tramites/residencia-legal#howto",
   "name": "Cómo obtener la Residencia Legal Definitiva en Uruguay",
   "description": "Pasos para obtener la residencia legal permanente en Uruguay como extranjero, incluyendo requisitos, documentación y costos.",
   "inLanguage": "es",
@@ -71,7 +71,7 @@ tags: [migración, trámites, residencia, uruguay, legalización, permanencia]
 <script type="application/ld+json">{`{
   "@context": "https://schema.org",
   "@type": "FAQPage",
-  "@id": "https://blog.araelespinosa.me/docs/migration/uruguay/tramites/residencia-legal#faq",
+  "@id": "https://wiki.araelespinosa.me/docs/migration/uruguay/tramites/residencia-legal#faq",
   "mainEntity": [
     {
       "@type": "Question",

@@ -7,7 +7,7 @@ description: Guía sobre el trámite de Residencia por Arraigo en Uruguay para s
 <script type="application/ld+json">{`{
   "@context": "https://schema.org",
   "@type": "HowTo",
-  "@id": "https://blog.araelespinosa.me/docs/migration/uruguay/tramites/residencia-por-arraigo#howto",
+  "@id": "https://wiki.araelespinosa.me/docs/migration/uruguay/tramites/residencia-por-arraigo#howto",
   "name": "Cómo obtener la Residencia por Arraigo en Uruguay",
   "description": "Pasos para regularizar la situación migratoria en Uruguay mediante el programa Residencia por Arraigo (Decreto 138/024), disponible para ex solicitantes de refugio.",
   "inLanguage": "es",
@@ -56,7 +56,7 @@ description: Guía sobre el trámite de Residencia por Arraigo en Uruguay para s
 <script type="application/ld+json">{`{
   "@context": "https://schema.org",
   "@type": "FAQPage",
-  "@id": "https://blog.araelespinosa.me/docs/migration/uruguay/tramites/residencia-por-arraigo#faq",
+  "@id": "https://wiki.araelespinosa.me/docs/migration/uruguay/tramites/residencia-por-arraigo#faq",
   "mainEntity": [
     {
       "@type": "Question",

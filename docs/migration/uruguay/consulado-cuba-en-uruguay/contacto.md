@@ -14,7 +14,7 @@ tags: [contacto, consulado, cuba, uruguay, montevideo]
 <script type="application/ld+json">{`{
   "@context": "https://schema.org",
   "@type": "GovernmentOffice",
-  "@id": "https://blog.araelespinosa.me/docs/migration/uruguay/consulado-cuba-en-uruguay/contacto#office",
+  "@id": "https://wiki.araelespinosa.me/docs/migration/uruguay/consulado-cuba-en-uruguay/contacto#office",
   "name": "Oficina Consular de Cuba en Montevideo",
   "description": "Consulado de Cuba en Uruguay. Atiende trámites consulares cubanos para ciudadanos residentes en Uruguay.",
   "url": "https://misiones.cubaminrex.cu/es/uruguay/servicios-consulares",

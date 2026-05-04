@@ -14,7 +14,7 @@ const config: Config = {
   },
 
   // Set the production url of your site here
-  url: 'https://blog.araelespinosa.me',
+  url: 'https://wiki.araelespinosa.me',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
@@ -95,7 +95,7 @@ const config: Config = {
             const items = await defaultCreateSitemapItems(rest);
             return items.map((item) => {
               // Home page
-              if (item.url === 'https://blog.araelespinosa.me/') {
+              if (item.url === 'https://wiki.araelespinosa.me/') {
                 return {...item, priority: 1.0, changefreq: 'weekly'};
               }
               // Main doc landing pages
@@ -131,7 +131,7 @@ const config: Config = {
         content:
           'Guía práctica sobre migración a Uruguay — trámites de residencia, cédula, banca y estadísticas oficiales sobre inmigración, explicados en detalle.',
       },
-      {name: 'og:image', content: 'https://blog.araelespinosa.me/img/docusaurus-social-card.jpg'},
+      {name: 'og:image', content: 'https://wiki.araelespinosa.me/img/docusaurus-social-card.jpg'},
       {name: 'og:image:width', content: '1200'},
       {name: 'og:image:height', content: '630'},
       {name: 'twitter:card', content: 'summary_large_image'},
@@ -141,7 +141,7 @@ const config: Config = {
         content:
           'Guía práctica sobre migración a Uruguay — trámites de residencia, cédula, banca y estadísticas oficiales.',
       },
-      {name: 'twitter:image', content: 'https://blog.araelespinosa.me/img/docusaurus-social-card.jpg'},
+      {name: 'twitter:image', content: 'https://wiki.araelespinosa.me/img/docusaurus-social-card.jpg'},
     ],
     navbar: {
       title: 'La Wiki de Arael Espinosa',

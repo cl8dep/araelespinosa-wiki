@@ -15,7 +15,7 @@ tags: [trámites, refugio, cédula, migración, uruguay]
 <script type="application/ld+json">{`{
   "@context": "https://schema.org",
   "@type": "HowTo",
-  "@id": "https://blog.araelespinosa.me/docs/migration/uruguay/tramites/cedula/renovacion-cedula-solicitante-refugio#howto",
+  "@id": "https://wiki.araelespinosa.me/docs/migration/uruguay/tramites/cedula/renovacion-cedula-solicitante-refugio#howto",
   "name": "Cómo renovar la cédula de identidad siendo solicitante de refugio en Uruguay",
   "description": "Proceso de 3 etapas para renovar la cédula de identidad uruguaya como solicitante de refugio: constancia CORE, certificado migratorio y cita en la DNIC.",
   "inLanguage": "es",
@@ -52,7 +52,7 @@ tags: [trámites, refugio, cédula, migración, uruguay]
 <script type="application/ld+json">{`{
   "@context": "https://schema.org",
   "@type": "FAQPage",
-  "@id": "https://blog.araelespinosa.me/docs/migration/uruguay/tramites/cedula/renovacion-cedula-solicitante-refugio#faq",
+  "@id": "https://wiki.araelespinosa.me/docs/migration/uruguay/tramites/cedula/renovacion-cedula-solicitante-refugio#faq",
   "mainEntity": [
     {
       "@type": "Question",

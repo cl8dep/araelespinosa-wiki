@@ -4,7 +4,7 @@ import Heading from '@theme/Heading';
 
 const LAST_UPDATED = '26 de abril de 2026';
 const CONTACT_EMAIL = 'gestoria@araelespinosa.me';
-const SITE_URL = 'https://blog.araelespinosa.me';
+const SITE_URL = 'https://wiki.araelespinosa.me';
 
 export default function Terms(): ReactNode {
   return (

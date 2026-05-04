@@ -16,7 +16,7 @@ tags: [migracion, trámites, uruguay, cuba, contacto]
 <script type="application/ld+json">{`{
   "@context": "https://schema.org",
   "@type": "GovernmentOffice",
-  "@id": "https://blog.araelespinosa.me/docs/migration/cuba/consulado-uruguay-en-cuba/contacto#office",
+  "@id": "https://wiki.araelespinosa.me/docs/migration/cuba/consulado-uruguay-en-cuba/contacto#office",
   "name": "Consulado de Uruguay en Cuba",
   "description": "Representación diplomática de Uruguay en La Habana, Cuba. Brinda servicios consulares a ciudadanos uruguayos, cubanos y de otras nacionalidades.",
   "url": "https://www.gub.uy/ministerio-relaciones-exteriores/",

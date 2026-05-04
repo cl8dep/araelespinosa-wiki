@@ -15,7 +15,7 @@ import {
 
 import styles from './index.module.css';
 
-const SITE_URL = 'https://blog.araelespinosa.me';
+const SITE_URL = 'https://wiki.araelespinosa.me';
 
 const jsonLd = {
   '@context': 'https://schema.org',

@@ -2,4 +2,4 @@ User-agent: *
 Allow: /
 Disallow: /tags/
 
-Sitemap: https://blog.araelespinosa.me/sitemap.xml
+Sitemap: https://wiki.araelespinosa.me/sitemap.xml

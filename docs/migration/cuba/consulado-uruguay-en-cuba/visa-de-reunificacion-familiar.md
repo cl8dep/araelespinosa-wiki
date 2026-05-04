@@ -16,7 +16,7 @@ tags: [visa, migración, trámites, reunificación, uruguay]
 <script type="application/ld+json">{`{
   "@context": "https://schema.org",
   "@type": "HowTo",
-  "@id": "https://blog.araelespinosa.me/docs/migration/cuba/consulado-uruguay-en-cuba/visa-de-reunificacion-familiar#howto",
+  "@id": "https://wiki.araelespinosa.me/docs/migration/cuba/consulado-uruguay-en-cuba/visa-de-reunificacion-familiar#howto",
   "name": "Cómo solicitar la Visa de Reunificación Familiar para Uruguay desde Cuba",
   "description": "Pasos para tramitar la visa de reunificación familiar uruguaya, que permite reencontrarse con residentes legales en Uruguay.",
   "inLanguage": "es",
@@ -45,7 +45,7 @@ tags: [visa, migración, trámites, reunificación, uruguay]
 <script type="application/ld+json">{`{
   "@context": "https://schema.org",
   "@type": "FAQPage",
-  "@id": "https://blog.araelespinosa.me/docs/migration/cuba/consulado-uruguay-en-cuba/visa-de-reunificacion-familiar#faq",
+  "@id": "https://wiki.araelespinosa.me/docs/migration/cuba/consulado-uruguay-en-cuba/visa-de-reunificacion-familiar#faq",
   "mainEntity": [
     {
       "@type": "Question",

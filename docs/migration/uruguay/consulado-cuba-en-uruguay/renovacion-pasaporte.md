@@ -14,7 +14,7 @@ tags: [trámites, pasaporte, cuba, consulado, uruguay]
 <script type="application/ld+json">{`{
   "@context": "https://schema.org",
   "@type": "HowTo",
-  "@id": "https://blog.araelespinosa.me/docs/migration/uruguay/consulado-cuba-en-uruguay/renovacion-pasaporte#howto",
+  "@id": "https://wiki.araelespinosa.me/docs/migration/uruguay/consulado-cuba-en-uruguay/renovacion-pasaporte#howto",
   "name": "Cómo renovar o confeccionar el pasaporte cubano en Uruguay",
   "description": "Pasos para tramitar la renovación o confección del pasaporte cubano en la Oficina Consular de Cuba en Montevideo, Uruguay.",
   "inLanguage": "es",

@@ -2,7 +2,7 @@
 
 Guía práctica sobre migración y trámites consulares para ciudadanos cubanos en Uruguay y la región. Cubre residencia legal, cédula de identidad, pasaporte cubano, visas y más.
 
-**Sitio en producción:** [blog.araelespinosa.me](https://blog.araelespinosa.me)
+**Sitio en producción:** [wiki.araelespinosa.me](https://wiki.araelespinosa.me)
 
 ---
 
@@ -71,7 +71,7 @@ Esto significa que:
 
 Ver [LICENSE](./LICENSE) para el texto completo.
 
-**Autor:** Arael Espinosa — [blog.araelespinosa.me](https://blog.araelespinosa.me)
+**Autor:** Arael Espinosa — [wiki.araelespinosa.me](https://wiki.araelespinosa.me)
 
 ## Contribuciones
 
