@@ -8,7 +8,6 @@ import {
   ClipboardList,
   Globe,
   RefreshCw,
-  MapPin,
   MessageCircle,
   Mail,
 } from 'lucide-react';
@@ -84,16 +83,19 @@ const features = [
 const countries = [
   {
     name: 'Cuba',
+    iso2: 'cu',
     description: 'Trámites del Consulado de Uruguay en Cuba: visas, legalización de documentos y más.',
     link: '/docs/migration/cuba',
   },
   {
     name: 'Panamá',
+    iso2: 'pa',
     description: 'Recursos e información para cubanos en tránsito o residentes en Panamá.',
     link: '/docs/migration/panama',
   },
   {
     name: 'Uruguay',
+    iso2: 'uy',
     description: 'Residencia legal, cédula de identidad, banca y más para migrantes en Uruguay.',
     link: '/docs/migration/uruguay',
   },
@@ -157,7 +159,13 @@ function CountriesSection() {
           {countries.map((c, i) => (
             <Link key={i} to={c.link} className={styles.countryCard}>
               <div className={styles.countryIconWrap}>
-                <MapPin size={24} strokeWidth={1.75} />
+                <img
+                  src={`https://flagcdn.com/w80/${c.iso2}.png`}
+                  alt={`Bandera de ${c.name}`}
+                  width={48}
+                  height={36}
+                  style={{borderRadius: 4, objectFit: 'cover', display: 'block'}}
+                />
               </div>
               <h3 className={styles.countryName}>{c.name}</h3>
               <p className={styles.countryDesc}>{c.description}</p>

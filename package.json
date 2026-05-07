@@ -12,7 +12,9 @@
     "serve": "docusaurus serve",
     "write-translations": "docusaurus write-translations",
     "write-heading-ids": "docusaurus write-heading-ids",
-    "typecheck": "tsc"
+    "typecheck": "tsc",
+    "import-passport-data": "node scripts/import-passport-data.mjs",
+    "validate-passport-data": "node scripts/validate-passport-data.mjs"
   },
   "dependencies": {
     "@docusaurus/core": "3.10.1",

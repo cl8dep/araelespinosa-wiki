@@ -1,0 +1,297 @@
+.wrapper {
+  position: relative;
+  flex: 1;
+  min-width: 0;
+  max-width: 100%;
+}
+
+/* ── Trigger ── */
+.trigger {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 6px;
+  padding: 8px 10px;
+  min-height: 42px;
+  width: 100%;
+  box-sizing: border-box;
+  background: var(--ifm-background-color);
+  border: 1.5px solid var(--ifm-color-emphasis-300);
+  border-radius: 8px;
+  cursor: pointer;
+  transition: border-color 0.15s;
+  user-select: none;
+}
+
+.trigger:hover,
+.triggerOpen {
+  border-color: var(--ifm-color-primary);
+}
+
+.placeholder {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex: 1;
+  color: var(--ifm-color-content-secondary);
+  font-size: 14px;
+}
+
+.searchIconInline {
+  font-size: 13px;
+  opacity: 0.5;
+}
+
+/* ── Chips ── */
+.chips {
+  display: contents;
+}
+
+.chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  padding: 3px 7px;
+  background: color-mix(in srgb, var(--ifm-color-primary) 12%, transparent);
+  border: 1px solid color-mix(in srgb, var(--ifm-color-primary) 30%, transparent);
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: 500;
+  color: var(--ifm-color-primary-darkest, #1a56a0);
+  max-width: 140px;
+}
+
+.chipName {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.chipRemove {
+  border: none;
+  background: none;
+  cursor: pointer;
+  padding: 0;
+  line-height: 1;
+  font-size: 14px;
+  color: inherit;
+  opacity: 0.6;
+  flex-shrink: 0;
+}
+
+.chipRemove:hover {
+  opacity: 1;
+}
+
+.chipMore {
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--ifm-color-content-secondary);
+  padding: 3px 6px;
+  background: var(--ifm-color-emphasis-100);
+  border-radius: 20px;
+  white-space: nowrap;
+}
+
+/* ── Actions (clear + chevron) ── */
+.actions {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  flex-shrink: 0;
+  margin-left: auto;
+}
+
+.clearBtn {
+  border: none;
+  background: none;
+  cursor: pointer;
+  font-size: 13px;
+  color: var(--ifm-color-content-secondary);
+  padding: 2px 4px;
+  border-radius: 4px;
+  line-height: 1;
+}
+
+.clearBtn:hover {
+  color: var(--ifm-color-danger);
+  background: var(--ifm-color-emphasis-100);
+}
+
+.chevron {
+  font-size: 12px;
+  color: var(--ifm-color-content-secondary);
+  transition: transform 0.2s;
+}
+
+.chevronOpen {
+  transform: rotate(180deg);
+}
+
+/* ── Dropdown ── */
+.dropdown {
+  position: absolute;
+  top: calc(100% + 6px);
+  left: 0;
+  right: 0;
+  z-index: 9999;
+  background: #ffffff;
+  border: 1.5px solid var(--ifm-color-emphasis-300);
+  border-radius: 10px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.14), 0 2px 6px rgba(0, 0, 0, 0.07);
+  overflow: hidden;
+  animation: dropIn 0.15s ease;
+  isolation: isolate;
+  min-width: 260px;
+}
+
+@keyframes dropIn {
+  from { opacity: 0; transform: translateY(-6px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+/* ── Header ── */
+.dropdownHeader {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 10px 8px;
+  border-bottom: 1px solid var(--ifm-color-emphasis-200);
+  background: #ffffff;
+}
+
+.searchWrapper {
+  position: relative;
+  flex: 1;
+}
+
+.searchIcon {
+  position: absolute;
+  left: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  pointer-events: none;
+  opacity: 0.45;
+  display: block;
+}
+
+.searchInput {
+  width: 100%;
+  padding: 7px 10px 7px 30px;
+  border: 1px solid var(--ifm-color-emphasis-300);
+  border-radius: 6px;
+  background: var(--ifm-background-surface-color, #f8f9fa);
+  color: var(--ifm-color-content);
+  font-size: 13px;
+}
+
+.searchInput:focus {
+  outline: none;
+  border-color: var(--ifm-color-primary);
+}
+
+.clearAllBtn {
+  border: 1px solid var(--ifm-color-danger-light, #fca5a5);
+  background: none;
+  color: var(--ifm-color-danger, #e63946);
+  font-size: 12px;
+  font-weight: 600;
+  padding: 5px 10px;
+  border-radius: 6px;
+  cursor: pointer;
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
+.clearAllBtn:hover {
+  background: var(--ifm-color-danger, #e63946);
+  color: #fff;
+}
+
+/* ── List ── */
+.list {
+  list-style: none;
+  margin: 0;
+  padding: 6px 0;
+  max-height: 280px;
+  overflow-y: auto;
+  scrollbar-width: thin;
+  background: #ffffff;
+}
+
+.list::-webkit-scrollbar { width: 4px; }
+.list::-webkit-scrollbar-thumb {
+  background: var(--ifm-color-emphasis-300);
+  border-radius: 4px;
+}
+
+.noResults {
+  padding: 14px 16px;
+  font-size: 13px;
+  color: var(--ifm-color-content-secondary);
+  text-align: center;
+}
+
+/* ── Option ── */
+.option {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 8px 14px;
+  cursor: pointer;
+  font-size: 13px;
+  transition: background 0.1s;
+}
+
+.option:hover {
+  background: var(--ifm-color-emphasis-100);
+}
+
+.optionSelected {
+  background: color-mix(in srgb, var(--ifm-color-primary) 8%, transparent);
+}
+
+.checkbox {
+  width: 16px;
+  height: 16px;
+  border: 1.5px solid var(--ifm-color-emphasis-400);
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 11px;
+  font-weight: 700;
+  flex-shrink: 0;
+  color: transparent;
+  background: transparent;
+  transition: all 0.1s;
+}
+
+.checkboxChecked {
+  background: var(--ifm-color-primary);
+  border-color: var(--ifm-color-primary);
+  color: #fff;
+}
+
+.optionName {
+  flex: 1;
+  color: var(--ifm-color-content);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.optionSelected .optionName {
+  font-weight: 600;
+}
+
+.optionCode {
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  color: var(--ifm-color-content-secondary);
+  background: var(--ifm-color-emphasis-100);
+  padding: 1px 5px;
+  border-radius: 4px;
+  flex-shrink: 0;
+}

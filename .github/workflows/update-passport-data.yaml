@@ -1,0 +1,60 @@
+name: Update passport data
+
+on:
+  workflow_dispatch: # disabled automatic trigger — enable by adding push/schedule when ready
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: pnpm/action-setup@v4
+        with:
+          version: 10
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 25
+          cache: pnpm
+
+      - name: Import passport data
+        run: node scripts/import-passport-data.mjs
+
+      - name: Validate passport data
+        run: node scripts/validate-passport-data.mjs
+
+      - name: Check for changes
+        id: diff
+        run: |
+          git diff --quiet static/data/passports/ src/data/passport-list.json \
+            && echo "changed=false" >> "$GITHUB_OUTPUT" \
+            || echo "changed=true" >> "$GITHUB_OUTPUT"
+
+      - name: Open PR if data changed
+        if: steps.diff.outputs.changed == 'true'
+        uses: peter-evans/create-pull-request@v6
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          branch: data/passport-update-${{ github.run_number }}
+          title: "data: actualización automática de datos de pasaportes"
+          body: |
+            Cambios detectados en el dataset `passport-index-data` al correr el script de importación.
+
+            **Qué incluye este PR:**
+            - Actualización de requisitos base en `static/data/passports/`
+            - Las excepciones, `maxStay`, `reviewed` y demás campos curados se han preservado
+
+            **Verificación:**
+            - [ ] Revisar diff de los JSONs modificados
+            - [ ] Confirmar que los cambios son consistentes con la realidad
+            - [ ] Mergear si todo es correcto
+          commit-message: "data: actualización automática desde passport-index-data"
+          add-paths: |
+            static/data/passports/
+            src/data/passport-list.json

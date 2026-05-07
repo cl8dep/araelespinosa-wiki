@@ -1,0 +1,804 @@
+{
+  "description": "Índice de datasets de requisitos de visa por pasaporte",
+  "source": "https://github.com/imorte/passport-index-data",
+  "maintainer": "contacto@araelespinosa.me",
+  "baseUrl": "https://wiki.araelespinosa.me/data/passports/",
+  "passports": [
+    {
+      "iso3": "AFG",
+      "url": "https://wiki.araelespinosa.me/data/passports/AFG.json"
+    },
+    {
+      "iso3": "AGO",
+      "url": "https://wiki.araelespinosa.me/data/passports/AGO.json"
+    },
+    {
+      "iso3": "ALB",
+      "url": "https://wiki.araelespinosa.me/data/passports/ALB.json"
+    },
+    {
+      "iso3": "AND",
+      "url": "https://wiki.araelespinosa.me/data/passports/AND.json"
+    },
+    {
+      "iso3": "ARE",
+      "url": "https://wiki.araelespinosa.me/data/passports/ARE.json"
+    },
+    {
+      "iso3": "ARG",
+      "url": "https://wiki.araelespinosa.me/data/passports/ARG.json"
+    },
+    {
+      "iso3": "ARM",
+      "url": "https://wiki.araelespinosa.me/data/passports/ARM.json"
+    },
+    {
+      "iso3": "ATG",
+      "url": "https://wiki.araelespinosa.me/data/passports/ATG.json"
+    },
+    {
+      "iso3": "AUS",
+      "url": "https://wiki.araelespinosa.me/data/passports/AUS.json"
+    },
+    {
+      "iso3": "AUT",
+      "url": "https://wiki.araelespinosa.me/data/passports/AUT.json"
+    },
+    {
+      "iso3": "AZE",
+      "url": "https://wiki.araelespinosa.me/data/passports/AZE.json"
+    },
+    {
+      "iso3": "BDI",
+      "url": "https://wiki.araelespinosa.me/data/passports/BDI.json"
+    },
+    {
+      "iso3": "BEL",
+      "url": "https://wiki.araelespinosa.me/data/passports/BEL.json"
+    },
+    {
+      "iso3": "BEN",
+      "url": "https://wiki.araelespinosa.me/data/passports/BEN.json"
+    },
+    {
+      "iso3": "BFA",
+      "url": "https://wiki.araelespinosa.me/data/passports/BFA.json"
+    },
+    {
+      "iso3": "BGD",
+      "url": "https://wiki.araelespinosa.me/data/passports/BGD.json"
+    },
+    {
+      "iso3": "BGR",
+      "url": "https://wiki.araelespinosa.me/data/passports/BGR.json"
+    },
+    {
+      "iso3": "BHR",
+      "url": "https://wiki.araelespinosa.me/data/passports/BHR.json"
+    },
+    {
+      "iso3": "BHS",
+      "url": "https://wiki.araelespinosa.me/data/passports/BHS.json"
+    },
+    {
+      "iso3": "BIH",
+      "url": "https://wiki.araelespinosa.me/data/passports/BIH.json"
+    },
+    {
+      "iso3": "BLR",
+      "url": "https://wiki.araelespinosa.me/data/passports/BLR.json"
+    },
+    {
+      "iso3": "BLZ",
+      "url": "https://wiki.araelespinosa.me/data/passports/BLZ.json"
+    },
+    {
+      "iso3": "BOL",
+      "url": "https://wiki.araelespinosa.me/data/passports/BOL.json"
+    },
+    {
+      "iso3": "BRA",
+      "url": "https://wiki.araelespinosa.me/data/passports/BRA.json"
+    },
+    {
+      "iso3": "BRB",
+      "url": "https://wiki.araelespinosa.me/data/passports/BRB.json"
+    },
+    {
+      "iso3": "BRN",
+      "url": "https://wiki.araelespinosa.me/data/passports/BRN.json"
+    },
+    {
+      "iso3": "BTN",
+      "url": "https://wiki.araelespinosa.me/data/passports/BTN.json"
+    },
+    {
+      "iso3": "BWA",
+      "url": "https://wiki.araelespinosa.me/data/passports/BWA.json"
+    },
+    {
+      "iso3": "CAF",
+      "url": "https://wiki.araelespinosa.me/data/passports/CAF.json"
+    },
+    {
+      "iso3": "CAN",
+      "url": "https://wiki.araelespinosa.me/data/passports/CAN.json"
+    },
+    {
+      "iso3": "CHE",
+      "url": "https://wiki.araelespinosa.me/data/passports/CHE.json"
+    },
+    {
+      "iso3": "CHL",
+      "url": "https://wiki.araelespinosa.me/data/passports/CHL.json"
+    },
+    {
+      "iso3": "CHN",
+      "url": "https://wiki.araelespinosa.me/data/passports/CHN.json"
+    },
+    {
+      "iso3": "CIV",
+      "url": "https://wiki.araelespinosa.me/data/passports/CIV.json"
+    },
+    {
+      "iso3": "CMR",
+      "url": "https://wiki.araelespinosa.me/data/passports/CMR.json"
+    },
+    {
+      "iso3": "COD",
+      "url": "https://wiki.araelespinosa.me/data/passports/COD.json"
+    },
+    {
+      "iso3": "COG",
+      "url": "https://wiki.araelespinosa.me/data/passports/COG.json"
+    },
+    {
+      "iso3": "COL",
+      "url": "https://wiki.araelespinosa.me/data/passports/COL.json"
+    },
+    {
+      "iso3": "COM",
+      "url": "https://wiki.araelespinosa.me/data/passports/COM.json"
+    },
+    {
+      "iso3": "CPV",
+      "url": "https://wiki.araelespinosa.me/data/passports/CPV.json"
+    },
+    {
+      "iso3": "CRI",
+      "url": "https://wiki.araelespinosa.me/data/passports/CRI.json"
+    },
+    {
+      "iso3": "CUB",
+      "url": "https://wiki.araelespinosa.me/data/passports/CUB.json"
+    },
+    {
+      "iso3": "CYP",
+      "url": "https://wiki.araelespinosa.me/data/passports/CYP.json"
+    },
+    {
+      "iso3": "CZE",
+      "url": "https://wiki.araelespinosa.me/data/passports/CZE.json"
+    },
+    {
+      "iso3": "DEU",
+      "url": "https://wiki.araelespinosa.me/data/passports/DEU.json"
+    },
+    {
+      "iso3": "DJI",
+      "url": "https://wiki.araelespinosa.me/data/passports/DJI.json"
+    },
+    {
+      "iso3": "DMA",
+      "url": "https://wiki.araelespinosa.me/data/passports/DMA.json"
+    },
+    {
+      "iso3": "DNK",
+      "url": "https://wiki.araelespinosa.me/data/passports/DNK.json"
+    },
+    {
+      "iso3": "DOM",
+      "url": "https://wiki.araelespinosa.me/data/passports/DOM.json"
+    },
+    {
+      "iso3": "DZA",
+      "url": "https://wiki.araelespinosa.me/data/passports/DZA.json"
+    },
+    {
+      "iso3": "ECU",
+      "url": "https://wiki.araelespinosa.me/data/passports/ECU.json"
+    },
+    {
+      "iso3": "EGY",
+      "url": "https://wiki.araelespinosa.me/data/passports/EGY.json"
+    },
+    {
+      "iso3": "ERI",
+      "url": "https://wiki.araelespinosa.me/data/passports/ERI.json"
+    },
+    {
+      "iso3": "ESP",
+      "url": "https://wiki.araelespinosa.me/data/passports/ESP.json"
+    },
+    {
+      "iso3": "EST",
+      "url": "https://wiki.araelespinosa.me/data/passports/EST.json"
+    },
+    {
+      "iso3": "ETH",
+      "url": "https://wiki.araelespinosa.me/data/passports/ETH.json"
+    },
+    {
+      "iso3": "FIN",
+      "url": "https://wiki.araelespinosa.me/data/passports/FIN.json"
+    },
+    {
+      "iso3": "FJI",
+      "url": "https://wiki.araelespinosa.me/data/passports/FJI.json"
+    },
+    {
+      "iso3": "FRA",
+      "url": "https://wiki.araelespinosa.me/data/passports/FRA.json"
+    },
+    {
+      "iso3": "FSM",
+      "url": "https://wiki.araelespinosa.me/data/passports/FSM.json"
+    },
+    {
+      "iso3": "GAB",
+      "url": "https://wiki.araelespinosa.me/data/passports/GAB.json"
+    },
+    {
+      "iso3": "GBR",
+      "url": "https://wiki.araelespinosa.me/data/passports/GBR.json"
+    },
+    {
+      "iso3": "GEO",
+      "url": "https://wiki.araelespinosa.me/data/passports/GEO.json"
+    },
+    {
+      "iso3": "GHA",
+      "url": "https://wiki.araelespinosa.me/data/passports/GHA.json"
+    },
+    {
+      "iso3": "GIN",
+      "url": "https://wiki.araelespinosa.me/data/passports/GIN.json"
+    },
+    {
+      "iso3": "GMB",
+      "url": "https://wiki.araelespinosa.me/data/passports/GMB.json"
+    },
+    {
+      "iso3": "GNB",
+      "url": "https://wiki.araelespinosa.me/data/passports/GNB.json"
+    },
+    {
+      "iso3": "GNQ",
+      "url": "https://wiki.araelespinosa.me/data/passports/GNQ.json"
+    },
+    {
+      "iso3": "GRC",
+      "url": "https://wiki.araelespinosa.me/data/passports/GRC.json"
+    },
+    {
+      "iso3": "GRD",
+      "url": "https://wiki.araelespinosa.me/data/passports/GRD.json"
+    },
+    {
+      "iso3": "GTM",
+      "url": "https://wiki.araelespinosa.me/data/passports/GTM.json"
+    },
+    {
+      "iso3": "GUY",
+      "url": "https://wiki.araelespinosa.me/data/passports/GUY.json"
+    },
+    {
+      "iso3": "HKG",
+      "url": "https://wiki.araelespinosa.me/data/passports/HKG.json"
+    },
+    {
+      "iso3": "HND",
+      "url": "https://wiki.araelespinosa.me/data/passports/HND.json"
+    },
+    {
+      "iso3": "HRV",
+      "url": "https://wiki.araelespinosa.me/data/passports/HRV.json"
+    },
+    {
+      "iso3": "HTI",
+      "url": "https://wiki.araelespinosa.me/data/passports/HTI.json"
+    },
+    {
+      "iso3": "HUN",
+      "url": "https://wiki.araelespinosa.me/data/passports/HUN.json"
+    },
+    {
+      "iso3": "IDN",
+      "url": "https://wiki.araelespinosa.me/data/passports/IDN.json"
+    },
+    {
+      "iso3": "IND",
+      "url": "https://wiki.araelespinosa.me/data/passports/IND.json"
+    },
+    {
+      "iso3": "IRL",
+      "url": "https://wiki.araelespinosa.me/data/passports/IRL.json"
+    },
+    {
+      "iso3": "IRN",
+      "url": "https://wiki.araelespinosa.me/data/passports/IRN.json"
+    },
+    {
+      "iso3": "IRQ",
+      "url": "https://wiki.araelespinosa.me/data/passports/IRQ.json"
+    },
+    {
+      "iso3": "ISL",
+      "url": "https://wiki.araelespinosa.me/data/passports/ISL.json"
+    },
+    {
+      "iso3": "ISR",
+      "url": "https://wiki.araelespinosa.me/data/passports/ISR.json"
+    },
+    {
+      "iso3": "ITA",
+      "url": "https://wiki.araelespinosa.me/data/passports/ITA.json"
+    },
+    {
+      "iso3": "JAM",
+      "url": "https://wiki.araelespinosa.me/data/passports/JAM.json"
+    },
+    {
+      "iso3": "JOR",
+      "url": "https://wiki.araelespinosa.me/data/passports/JOR.json"
+    },
+    {
+      "iso3": "JPN",
+      "url": "https://wiki.araelespinosa.me/data/passports/JPN.json"
+    },
+    {
+      "iso3": "KAZ",
+      "url": "https://wiki.araelespinosa.me/data/passports/KAZ.json"
+    },
+    {
+      "iso3": "KEN",
+      "url": "https://wiki.araelespinosa.me/data/passports/KEN.json"
+    },
+    {
+      "iso3": "KGZ",
+      "url": "https://wiki.araelespinosa.me/data/passports/KGZ.json"
+    },
+    {
+      "iso3": "KHM",
+      "url": "https://wiki.araelespinosa.me/data/passports/KHM.json"
+    },
+    {
+      "iso3": "KIR",
+      "url": "https://wiki.araelespinosa.me/data/passports/KIR.json"
+    },
+    {
+      "iso3": "KNA",
+      "url": "https://wiki.araelespinosa.me/data/passports/KNA.json"
+    },
+    {
+      "iso3": "KOR",
+      "url": "https://wiki.araelespinosa.me/data/passports/KOR.json"
+    },
+    {
+      "iso3": "KWT",
+      "url": "https://wiki.araelespinosa.me/data/passports/KWT.json"
+    },
+    {
+      "iso3": "LAO",
+      "url": "https://wiki.araelespinosa.me/data/passports/LAO.json"
+    },
+    {
+      "iso3": "LBN",
+      "url": "https://wiki.araelespinosa.me/data/passports/LBN.json"
+    },
+    {
+      "iso3": "LBR",
+      "url": "https://wiki.araelespinosa.me/data/passports/LBR.json"
+    },
+    {
+      "iso3": "LBY",
+      "url": "https://wiki.araelespinosa.me/data/passports/LBY.json"
+    },
+    {
+      "iso3": "LCA",
+      "url": "https://wiki.araelespinosa.me/data/passports/LCA.json"
+    },
+    {
+      "iso3": "LIE",
+      "url": "https://wiki.araelespinosa.me/data/passports/LIE.json"
+    },
+    {
+      "iso3": "LKA",
+      "url": "https://wiki.araelespinosa.me/data/passports/LKA.json"
+    },
+    {
+      "iso3": "LSO",
+      "url": "https://wiki.araelespinosa.me/data/passports/LSO.json"
+    },
+    {
+      "iso3": "LTU",
+      "url": "https://wiki.araelespinosa.me/data/passports/LTU.json"
+    },
+    {
+      "iso3": "LUX",
+      "url": "https://wiki.araelespinosa.me/data/passports/LUX.json"
+    },
+    {
+      "iso3": "LVA",
+      "url": "https://wiki.araelespinosa.me/data/passports/LVA.json"
+    },
+    {
+      "iso3": "MAC",
+      "url": "https://wiki.araelespinosa.me/data/passports/MAC.json"
+    },
+    {
+      "iso3": "MAR",
+      "url": "https://wiki.araelespinosa.me/data/passports/MAR.json"
+    },
+    {
+      "iso3": "MCO",
+      "url": "https://wiki.araelespinosa.me/data/passports/MCO.json"
+    },
+    {
+      "iso3": "MDA",
+      "url": "https://wiki.araelespinosa.me/data/passports/MDA.json"
+    },
+    {
+      "iso3": "MDG",
+      "url": "https://wiki.araelespinosa.me/data/passports/MDG.json"
+    },
+    {
+      "iso3": "MDV",
+      "url": "https://wiki.araelespinosa.me/data/passports/MDV.json"
+    },
+    {
+      "iso3": "MEX",
+      "url": "https://wiki.araelespinosa.me/data/passports/MEX.json"
+    },
+    {
+      "iso3": "MHL",
+      "url": "https://wiki.araelespinosa.me/data/passports/MHL.json"
+    },
+    {
+      "iso3": "MKD",
+      "url": "https://wiki.araelespinosa.me/data/passports/MKD.json"
+    },
+    {
+      "iso3": "MLI",
+      "url": "https://wiki.araelespinosa.me/data/passports/MLI.json"
+    },
+    {
+      "iso3": "MLT",
+      "url": "https://wiki.araelespinosa.me/data/passports/MLT.json"
+    },
+    {
+      "iso3": "MMR",
+      "url": "https://wiki.araelespinosa.me/data/passports/MMR.json"
+    },
+    {
+      "iso3": "MNE",
+      "url": "https://wiki.araelespinosa.me/data/passports/MNE.json"
+    },
+    {
+      "iso3": "MNG",
+      "url": "https://wiki.araelespinosa.me/data/passports/MNG.json"
+    },
+    {
+      "iso3": "MOZ",
+      "url": "https://wiki.araelespinosa.me/data/passports/MOZ.json"
+    },
+    {
+      "iso3": "MRT",
+      "url": "https://wiki.araelespinosa.me/data/passports/MRT.json"
+    },
+    {
+      "iso3": "MUS",
+      "url": "https://wiki.araelespinosa.me/data/passports/MUS.json"
+    },
+    {
+      "iso3": "MWI",
+      "url": "https://wiki.araelespinosa.me/data/passports/MWI.json"
+    },
+    {
+      "iso3": "MYS",
+      "url": "https://wiki.araelespinosa.me/data/passports/MYS.json"
+    },
+    {
+      "iso3": "NAM",
+      "url": "https://wiki.araelespinosa.me/data/passports/NAM.json"
+    },
+    {
+      "iso3": "NER",
+      "url": "https://wiki.araelespinosa.me/data/passports/NER.json"
+    },
+    {
+      "iso3": "NGA",
+      "url": "https://wiki.araelespinosa.me/data/passports/NGA.json"
+    },
+    {
+      "iso3": "NIC",
+      "url": "https://wiki.araelespinosa.me/data/passports/NIC.json"
+    },
+    {
+      "iso3": "NLD",
+      "url": "https://wiki.araelespinosa.me/data/passports/NLD.json"
+    },
+    {
+      "iso3": "NOR",
+      "url": "https://wiki.araelespinosa.me/data/passports/NOR.json"
+    },
+    {
+      "iso3": "NPL",
+      "url": "https://wiki.araelespinosa.me/data/passports/NPL.json"
+    },
+    {
+      "iso3": "NRU",
+      "url": "https://wiki.araelespinosa.me/data/passports/NRU.json"
+    },
+    {
+      "iso3": "NZL",
+      "url": "https://wiki.araelespinosa.me/data/passports/NZL.json"
+    },
+    {
+      "iso3": "OMN",
+      "url": "https://wiki.araelespinosa.me/data/passports/OMN.json"
+    },
+    {
+      "iso3": "PAK",
+      "url": "https://wiki.araelespinosa.me/data/passports/PAK.json"
+    },
+    {
+      "iso3": "PAN",
+      "url": "https://wiki.araelespinosa.me/data/passports/PAN.json"
+    },
+    {
+      "iso3": "PER",
+      "url": "https://wiki.araelespinosa.me/data/passports/PER.json"
+    },
+    {
+      "iso3": "PHL",
+      "url": "https://wiki.araelespinosa.me/data/passports/PHL.json"
+    },
+    {
+      "iso3": "PLW",
+      "url": "https://wiki.araelespinosa.me/data/passports/PLW.json"
+    },
+    {
+      "iso3": "PNG",
+      "url": "https://wiki.araelespinosa.me/data/passports/PNG.json"
+    },
+    {
+      "iso3": "POL",
+      "url": "https://wiki.araelespinosa.me/data/passports/POL.json"
+    },
+    {
+      "iso3": "PRK",
+      "url": "https://wiki.araelespinosa.me/data/passports/PRK.json"
+    },
+    {
+      "iso3": "PRT",
+      "url": "https://wiki.araelespinosa.me/data/passports/PRT.json"
+    },
+    {
+      "iso3": "PRY",
+      "url": "https://wiki.araelespinosa.me/data/passports/PRY.json"
+    },
+    {
+      "iso3": "PSE",
+      "url": "https://wiki.araelespinosa.me/data/passports/PSE.json"
+    },
+    {
+      "iso3": "QAT",
+      "url": "https://wiki.araelespinosa.me/data/passports/QAT.json"
+    },
+    {
+      "iso3": "ROU",
+      "url": "https://wiki.araelespinosa.me/data/passports/ROU.json"
+    },
+    {
+      "iso3": "RUS",
+      "url": "https://wiki.araelespinosa.me/data/passports/RUS.json"
+    },
+    {
+      "iso3": "RWA",
+      "url": "https://wiki.araelespinosa.me/data/passports/RWA.json"
+    },
+    {
+      "iso3": "SAU",
+      "url": "https://wiki.araelespinosa.me/data/passports/SAU.json"
+    },
+    {
+      "iso3": "SDN",
+      "url": "https://wiki.araelespinosa.me/data/passports/SDN.json"
+    },
+    {
+      "iso3": "SEN",
+      "url": "https://wiki.araelespinosa.me/data/passports/SEN.json"
+    },
+    {
+      "iso3": "SGP",
+      "url": "https://wiki.araelespinosa.me/data/passports/SGP.json"
+    },
+    {
+      "iso3": "SLB",
+      "url": "https://wiki.araelespinosa.me/data/passports/SLB.json"
+    },
+    {
+      "iso3": "SLE",
+      "url": "https://wiki.araelespinosa.me/data/passports/SLE.json"
+    },
+    {
+      "iso3": "SLV",
+      "url": "https://wiki.araelespinosa.me/data/passports/SLV.json"
+    },
+    {
+      "iso3": "SMR",
+      "url": "https://wiki.araelespinosa.me/data/passports/SMR.json"
+    },
+    {
+      "iso3": "SOM",
+      "url": "https://wiki.araelespinosa.me/data/passports/SOM.json"
+    },
+    {
+      "iso3": "SRB",
+      "url": "https://wiki.araelespinosa.me/data/passports/SRB.json"
+    },
+    {
+      "iso3": "SSD",
+      "url": "https://wiki.araelespinosa.me/data/passports/SSD.json"
+    },
+    {
+      "iso3": "STP",
+      "url": "https://wiki.araelespinosa.me/data/passports/STP.json"
+    },
+    {
+      "iso3": "SUR",
+      "url": "https://wiki.araelespinosa.me/data/passports/SUR.json"
+    },
+    {
+      "iso3": "SVK",
+      "url": "https://wiki.araelespinosa.me/data/passports/SVK.json"
+    },
+    {
+      "iso3": "SVN",
+      "url": "https://wiki.araelespinosa.me/data/passports/SVN.json"
+    },
+    {
+      "iso3": "SWE",
+      "url": "https://wiki.araelespinosa.me/data/passports/SWE.json"
+    },
+    {
+      "iso3": "SWZ",
+      "url": "https://wiki.araelespinosa.me/data/passports/SWZ.json"
+    },
+    {
+      "iso3": "SYC",
+      "url": "https://wiki.araelespinosa.me/data/passports/SYC.json"
+    },
+    {
+      "iso3": "SYR",
+      "url": "https://wiki.araelespinosa.me/data/passports/SYR.json"
+    },
+    {
+      "iso3": "TCD",
+      "url": "https://wiki.araelespinosa.me/data/passports/TCD.json"
+    },
+    {
+      "iso3": "TGO",
+      "url": "https://wiki.araelespinosa.me/data/passports/TGO.json"
+    },
+    {
+      "iso3": "THA",
+      "url": "https://wiki.araelespinosa.me/data/passports/THA.json"
+    },
+    {
+      "iso3": "TJK",
+      "url": "https://wiki.araelespinosa.me/data/passports/TJK.json"
+    },
+    {
+      "iso3": "TKM",
+      "url": "https://wiki.araelespinosa.me/data/passports/TKM.json"
+    },
+    {
+      "iso3": "TLS",
+      "url": "https://wiki.araelespinosa.me/data/passports/TLS.json"
+    },
+    {
+      "iso3": "TON",
+      "url": "https://wiki.araelespinosa.me/data/passports/TON.json"
+    },
+    {
+      "iso3": "TTO",
+      "url": "https://wiki.araelespinosa.me/data/passports/TTO.json"
+    },
+    {
+      "iso3": "TUN",
+      "url": "https://wiki.araelespinosa.me/data/passports/TUN.json"
+    },
+    {
+      "iso3": "TUR",
+      "url": "https://wiki.araelespinosa.me/data/passports/TUR.json"
+    },
+    {
+      "iso3": "TUV",
+      "url": "https://wiki.araelespinosa.me/data/passports/TUV.json"
+    },
+    {
+      "iso3": "TWN",
+      "url": "https://wiki.araelespinosa.me/data/passports/TWN.json"
+    },
+    {
+      "iso3": "TZA",
+      "url": "https://wiki.araelespinosa.me/data/passports/TZA.json"
+    },
+    {
+      "iso3": "UGA",
+      "url": "https://wiki.araelespinosa.me/data/passports/UGA.json"
+    },
+    {
+      "iso3": "UKR",
+      "url": "https://wiki.araelespinosa.me/data/passports/UKR.json"
+    },
+    {
+      "iso3": "URY",
+      "url": "https://wiki.araelespinosa.me/data/passports/URY.json"
+    },
+    {
+      "iso3": "USA",
+      "url": "https://wiki.araelespinosa.me/data/passports/USA.json"
+    },
+    {
+      "iso3": "UZB",
+      "url": "https://wiki.araelespinosa.me/data/passports/UZB.json"
+    },
+    {
+      "iso3": "VAT",
+      "url": "https://wiki.araelespinosa.me/data/passports/VAT.json"
+    },
+    {
+      "iso3": "VCT",
+      "url": "https://wiki.araelespinosa.me/data/passports/VCT.json"
+    },
+    {
+      "iso3": "VEN",
+      "url": "https://wiki.araelespinosa.me/data/passports/VEN.json"
+    },
+    {
+      "iso3": "VNM",
+      "url": "https://wiki.araelespinosa.me/data/passports/VNM.json"
+    },
+    {
+      "iso3": "VUT",
+      "url": "https://wiki.araelespinosa.me/data/passports/VUT.json"
+    },
+    {
+      "iso3": "WSM",
+      "url": "https://wiki.araelespinosa.me/data/passports/WSM.json"
+    },
+    {
+      "iso3": "XKX",
+      "url": "https://wiki.araelespinosa.me/data/passports/XKX.json"
+    },
+    {
+      "iso3": "YEM",
+      "url": "https://wiki.araelespinosa.me/data/passports/YEM.json"
+    },
+    {
+      "iso3": "ZAF",
+      "url": "https://wiki.araelespinosa.me/data/passports/ZAF.json"
+    },
+    {
+      "iso3": "ZMB",
+      "url": "https://wiki.araelespinosa.me/data/passports/ZMB.json"
+    },
+    {
+      "iso3": "ZWE",
+      "url": "https://wiki.araelespinosa.me/data/passports/ZWE.json"
+    }
+  ]
+}

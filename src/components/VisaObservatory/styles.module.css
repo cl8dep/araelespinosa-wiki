@@ -1,0 +1,579 @@
+/* ===== Contenedor principal ===== */
+.observatory {
+  margin: 0 auto;
+  max-width: 1200px;
+  overflow-x: hidden;
+}
+
+/* ===== Header con controles ===== */
+.controls {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  gap: 12px;
+  margin-bottom: 20px;
+}
+
+.passportSelector {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-shrink: 0;
+}
+
+.passportSelector label {
+  font-weight: 600;
+  font-size: 14px;
+  white-space: nowrap;
+  color: var(--ifm-color-content);
+}
+
+.passportSelector select {
+  padding: 8px 12px;
+  border: 1px solid var(--ifm-color-emphasis-300);
+  border-radius: 6px;
+  background: var(--ifm-background-color);
+  color: var(--ifm-color-content);
+  font-size: 14px;
+  cursor: pointer;
+  min-width: 180px;
+}
+
+.passportSelector select:focus {
+  outline: none;
+  border-color: var(--ifm-color-primary);
+}
+
+.searchBox {
+  flex: 1;
+  min-width: 200px;
+  position: relative;
+}
+
+.searchBox input {
+  width: 100%;
+  padding: 8px 12px 8px 36px;
+  border: 1px solid var(--ifm-color-emphasis-300);
+  border-radius: 6px;
+  background: var(--ifm-background-color);
+  color: var(--ifm-color-content);
+  font-size: 14px;
+}
+
+.searchBox input:focus {
+  outline: none;
+  border-color: var(--ifm-color-primary);
+}
+
+.searchIcon {
+  position: absolute;
+  left: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: var(--ifm-color-emphasis-500);
+  pointer-events: none;
+}
+
+.viewToggle {
+  display: flex;
+  border: 1px solid var(--ifm-color-emphasis-300);
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.viewToggle button {
+  padding: 8px 16px;
+  border: none;
+  background: var(--ifm-background-color);
+  color: var(--ifm-color-content);
+  font-size: 13px;
+  cursor: pointer;
+  transition: background 0.15s, color 0.15s;
+}
+
+.viewToggle button + button {
+  border-left: 1px solid var(--ifm-color-emphasis-300);
+}
+
+.viewToggle button.active {
+  background: var(--ifm-color-primary);
+  color: #fff;
+  font-weight: 600;
+}
+
+/* ===== Mapa ===== */
+.mapContainer {
+  position: relative;
+  background: var(--ifm-background-surface-color, #f8f9fa);
+  border-radius: 10px;
+  overflow: hidden;
+  border: 1px solid var(--ifm-color-emphasis-200);
+  margin-bottom: 16px;
+}
+
+.tooltip {
+  position: fixed;
+  background: rgba(10, 10, 10, 0.88);
+  color: #fff;
+  padding: 8px 12px;
+  border-radius: 6px;
+  font-size: 13px;
+  pointer-events: none;
+  z-index: 1000;
+  white-space: nowrap;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+}
+
+.tooltipRequirement {
+  margin-top: 3px;
+  font-size: 12px;
+  opacity: 0.85;
+}
+
+.tooltipExceptions {
+  margin-top: 3px;
+  font-size: 11px;
+  color: #ffd166;
+}
+
+/* ===== Leyenda (al final) ===== */
+.legendSection {
+  margin-top: 40px;
+  padding-top: 28px;
+  border-top: 2px solid var(--ifm-color-emphasis-200);
+}
+
+.legendTitle {
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--ifm-color-content-secondary);
+  margin: 0 0 16px;
+}
+
+.legendGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 10px;
+}
+
+.legendCard {
+  padding: 12px 14px;
+  border: 1px solid var(--ifm-color-emphasis-200);
+  border-radius: 8px;
+  background: var(--ifm-background-color);
+}
+
+.legendCardHeader {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 5px;
+}
+
+.legendDot {
+  width: 11px;
+  height: 11px;
+  border-radius: 3px;
+  flex-shrink: 0;
+}
+
+.legendCardLabel {
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--ifm-color-content);
+  flex: 1;
+}
+
+.legendCount {
+  font-size: 11px;
+  font-weight: 700;
+  color: var(--ifm-color-content-secondary);
+  background: var(--ifm-color-emphasis-100);
+  padding: 1px 6px;
+  border-radius: 10px;
+}
+
+.legendCardDesc {
+  font-size: 12px;
+  color: var(--ifm-color-content-secondary);
+  margin: 0;
+  line-height: 1.5;
+}
+
+/* ===== Tabla de resultados ===== */
+.resultsTable {
+  width: 100% !important;
+  min-width: 100%;
+  table-layout: fixed;
+  border-collapse: collapse;
+  font-size: 14px;
+  margin-top: 4px;
+}
+
+.resultsTable th:nth-child(1),
+.resultsTable td:nth-child(1) { width: 22%; }
+.resultsTable th:nth-child(2),
+.resultsTable td:nth-child(2) { width: 18%; }
+.resultsTable th:nth-child(3),
+.resultsTable td:nth-child(3) { width: 20%; }
+.resultsTable th:nth-child(4),
+.resultsTable td:nth-child(4) { width: 40%; }
+
+.resultsTable thead tr {
+  border-bottom: 2px solid var(--ifm-color-emphasis-300);
+  text-align: left;
+}
+
+.resultsTable th {
+  padding: 8px 12px;
+  font-weight: 600;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--ifm-color-content-secondary);
+}
+
+.resultsTable tbody tr {
+  border-bottom: 1px solid var(--ifm-color-emphasis-200);
+  transition: background 0.1s;
+  cursor: pointer;
+}
+
+.resultsTable tbody tr:hover {
+  background: var(--ifm-color-emphasis-100);
+}
+
+.resultsTable tbody tr.highlighted {
+  background: rgba(104, 180, 217, 0.12);
+}
+
+.resultsTable td {
+  padding: 10px 12px;
+  vertical-align: top;
+  word-break: break-word;
+  overflow-wrap: break-word;
+}
+
+.countryCell {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-weight: 500;
+}
+
+.reviewedDot {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: #2a9d8f;
+  flex-shrink: 0;
+  cursor: help;
+}
+
+.reqBadge {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 3px 8px;
+  border-radius: 12px;
+  font-size: 12px;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.exceptionsCell {
+  font-size: 12px;
+  color: var(--ifm-color-content-secondary);
+}
+
+.exception {
+  display: flex;
+  align-items: flex-start;
+  gap: 6px;
+  margin-top: 4px;
+  line-height: 1.4;
+}
+
+.exception:first-child {
+  margin-top: 0;
+}
+
+.exceptionGroup {
+  margin-bottom: 6px;
+}
+
+.exceptionGroup:last-child {
+  margin-bottom: 0;
+}
+
+.exceptionGroupLabel {
+  display: inline-block;
+  font-size: 10px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--ifm-color-content-secondary);
+  margin-bottom: 3px;
+  opacity: 0.7;
+}
+
+.exceptionArrow {
+  color: #2a9d8f;
+  font-weight: 700;
+  flex-shrink: 0;
+  font-size: 11px;
+  margin-top: 1px;
+}
+
+.exceptionMeta {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin-top: 3px;
+  flex-wrap: wrap;
+}
+
+.verifiedBadge {
+  display: inline-flex;
+  align-items: center;
+  gap: 3px;
+  font-size: 10px;
+  font-weight: 600;
+  padding: 1px 6px;
+  border-radius: 10px;
+  background: #dcfce7;
+  color: #15803d;
+  border: 1px solid #bbf7d0;
+  white-space: nowrap;
+}
+
+.unverifiedBadge {
+  background: var(--ifm-color-emphasis-100);
+  color: var(--ifm-color-content-secondary);
+  border-color: var(--ifm-color-emphasis-200);
+}
+
+.exceptionSource {
+  font-size: 10px;
+  opacity: 0.65;
+}
+
+.exceptionSourceLink {
+  color: inherit;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+.exceptionSourceLink:hover {
+  opacity: 1;
+}
+
+.transitCell {
+  font-size: 12px;
+}
+
+/* ===== Meta row (fecha + contador) ===== */
+.metaRow {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  margin-bottom: 12px;
+  font-size: 12px;
+  color: var(--ifm-color-content-secondary);
+}
+
+.metaUpdated {
+  opacity: 0.7;
+}
+
+.metaCount {
+  font-weight: 600;
+}
+
+/* ===== Copy URL button ===== */
+.copyUrlBtn {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 0 12px;
+  height: 42px;
+  border: 1.5px solid var(--ifm-color-emphasis-300);
+  border-radius: 8px;
+  background: var(--ifm-background-color);
+  color: var(--ifm-color-content-secondary);
+  font-size: 13px;
+  font-weight: 500;
+  cursor: pointer;
+  white-space: nowrap;
+  transition: border-color 0.15s, color 0.15s;
+  flex-shrink: 0;
+}
+
+.copyUrlBtn:hover {
+  border-color: var(--ifm-color-primary);
+  color: var(--ifm-color-primary);
+}
+
+/* ===== Map toggle ===== */
+.mapToggleHeader {
+  margin-bottom: 8px;
+}
+
+.mapToggleBtn {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--ifm-color-content-secondary);
+  padding: 4px 0;
+}
+
+.mapToggleBtn:hover {
+  color: var(--ifm-color-content);
+}
+
+/* ===== Estado vacío ===== */
+.emptyState {
+  text-align: center;
+  padding: 48px 24px;
+  color: var(--ifm-color-content-secondary);
+}
+
+.emptyState p {
+  margin: 8px 0 0;
+  font-size: 14px;
+}
+
+/* ===== Loading ===== */
+.loading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 48px;
+  color: var(--ifm-color-content-secondary);
+  font-size: 14px;
+}
+
+@keyframes spin {
+  from { transform: rotate(0deg); }
+  to   { transform: rotate(360deg); }
+}
+
+/* ===== Mobile card layout ===== */
+.mobileCards {
+  display: none;
+  flex-direction: column;
+  gap: 8px;
+  margin-top: 4px;
+}
+
+.mobileCard {
+  border: 1px solid var(--ifm-color-emphasis-200);
+  border-radius: 8px;
+  padding: 12px 14px;
+  cursor: pointer;
+  transition: background 0.1s;
+  background: var(--ifm-background-color);
+}
+
+.mobileCard:hover {
+  background: var(--ifm-color-emphasis-100);
+}
+
+.mobileCard.highlighted {
+  background: rgba(104, 180, 217, 0.12);
+  border-color: rgba(104, 180, 217, 0.4);
+}
+
+.mobileCardHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  margin-bottom: 8px;
+}
+
+.mobileCardCountry {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.mobileCardIso {
+  font-size: 11px;
+  color: var(--ifm-color-emphasis-500);
+  font-weight: 400;
+}
+
+.mobileCardBadges {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.mobileCardBadgeGroup {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  flex-wrap: wrap;
+}
+
+.mobileCardBadgeLabel {
+  font-size: 11px;
+  font-weight: 600;
+  color: var(--ifm-color-content-secondary);
+  min-width: 54px;
+}
+
+.mobileCardExceptions {
+  margin-top: 8px;
+  padding-top: 8px;
+  border-top: 1px solid var(--ifm-color-emphasis-200);
+  font-size: 12px;
+  color: var(--ifm-color-content-secondary);
+}
+
+.mobileCardExceptionsLabel {
+  font-size: 10px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--ifm-color-content-secondary);
+  opacity: 0.7;
+  margin-bottom: 4px;
+}
+
+/* ===== Responsive ===== */
+@media (max-width: 768px) {
+  .controls {
+    flex-direction: column;
+    align-items: stretch;
+  }
+  .passportSelector {
+    flex-direction: row;
+  }
+  .passportSelector select {
+    flex: 1;
+  }
+  .viewToggle {
+    align-self: flex-start;
+  }
+
+  /* Switch table to cards on mobile */
+  .resultsTable {
+    display: none;
+  }
+  .mobileCards {
+    display: flex;
+  }
+}

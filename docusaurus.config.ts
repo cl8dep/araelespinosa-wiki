@@ -98,6 +98,10 @@ const config: Config = {
               if (item.url === 'https://wiki.araelespinosa.me/') {
                 return {...item, priority: 1.0, changefreq: 'weekly'};
               }
+              // Visa Observatory
+              if (item.url.includes('/visas')) {
+                return {...item, priority: 0.9, changefreq: 'weekly'};
+              }
               // Main doc landing pages
               if (item.url.match(/\/docs\/migration\/(uruguay|cuba|panama)$/)) {
                 return {...item, priority: 0.8};
@@ -163,7 +167,7 @@ const config: Config = {
           position: 'left',
           label: 'Estadísticas',
         },
-        // {to: '/blog', label: 'Blog', position: 'left'},
+        {to: '/visas', label: 'Visas', position: 'left'},
         {
           href: 'https://github.com/cl8dep/araelespinosa-blog',
           label: 'GitHub',

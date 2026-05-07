@@ -1,0 +1,205 @@
+.wrapper {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  flex: 1;
+  min-width: 0;
+  max-width: 100%;
+}
+
+.label {
+  font-size: 11px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--ifm-color-content-secondary);
+}
+
+/* ── Trigger button ── */
+.trigger {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 0 12px;
+  height: 42px;
+  width: 100%;
+  background: var(--ifm-background-color);
+  border: 1.5px solid var(--ifm-color-emphasis-300);
+  border-radius: 8px;
+  cursor: pointer;
+  transition: border-color 0.15s, box-shadow 0.15s;
+  color: var(--ifm-color-content);
+  font-size: 14px;
+  font-weight: 500;
+  text-align: left;
+}
+
+.trigger:hover {
+  border-color: var(--ifm-color-primary);
+}
+
+.trigger:focus-visible {
+  outline: none;
+  border-color: var(--ifm-color-primary);
+  box-shadow: 0 0 0 3px color-mix(in srgb, var(--ifm-color-primary) 20%, transparent);
+}
+
+.triggerName {
+  flex: 1;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.chevron {
+  font-size: 12px;
+  color: var(--ifm-color-content-secondary);
+  transition: transform 0.2s;
+  flex-shrink: 0;
+}
+
+.chevronOpen {
+  transform: rotate(180deg);
+}
+
+/* ── Dropdown panel ── */
+.dropdown {
+  position: absolute;
+  top: calc(100% + 6px);
+  left: 0;
+  z-index: 9999;
+  width: 280px;
+  background: #ffffff;
+  border: 1.5px solid var(--ifm-color-emphasis-300);
+  border-radius: 10px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15), 0 2px 6px rgba(0, 0, 0, 0.08);
+  overflow: hidden;
+  animation: dropIn 0.15s ease;
+  isolation: isolate;
+}
+
+@keyframes dropIn {
+  from {
+    opacity: 0;
+    transform: translateY(-6px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* ── Search ── */
+.searchWrapper {
+  position: relative;
+  padding: 10px 10px 8px;
+  border-bottom: 1px solid var(--ifm-color-emphasis-200);
+  background: #ffffff;
+}
+
+.searchIcon {
+  position: absolute;
+  left: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  pointer-events: none;
+  opacity: 0.5;
+  display: block;
+}
+
+.searchInput {
+  width: 100%;
+  padding: 7px 10px 7px 32px;
+  border: 1px solid var(--ifm-color-emphasis-300);
+  border-radius: 6px;
+  background: var(--ifm-background-surface-color, #f8f9fa);
+  color: var(--ifm-color-content);
+  font-size: 13px;
+}
+
+.searchInput:focus {
+  outline: none;
+  border-color: var(--ifm-color-primary);
+}
+
+/* ── Options list ── */
+.list {
+  list-style: none;
+  margin: 0;
+  padding: 6px 0;
+  max-height: 280px;
+  overflow-y: auto;
+  scrollbar-width: thin;
+  background: #ffffff;
+}
+
+.list::-webkit-scrollbar {
+  width: 4px;
+}
+
+.list::-webkit-scrollbar-thumb {
+  background: var(--ifm-color-emphasis-300);
+  border-radius: 4px;
+}
+
+.noResults {
+  padding: 14px 16px;
+  font-size: 13px;
+  color: var(--ifm-color-content-secondary);
+  text-align: center;
+}
+
+/* ── Option item ── */
+.option {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 8px 14px;
+  cursor: pointer;
+  transition: background 0.1s;
+  font-size: 13px;
+}
+
+.option:hover {
+  background: var(--ifm-color-emphasis-100);
+}
+
+.optionSelected {
+  background: color-mix(in srgb, var(--ifm-color-primary) 10%, transparent);
+}
+
+.optionSelected .optionName {
+  font-weight: 600;
+  color: var(--ifm-color-primary);
+}
+
+.optionName {
+  flex: 1;
+  color: var(--ifm-color-content);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.optionCode {
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  color: var(--ifm-color-content-secondary);
+  background: var(--ifm-color-emphasis-100);
+  padding: 1px 5px;
+  border-radius: 4px;
+  flex-shrink: 0;
+}
+
+@media (max-width: 768px) {
+  .trigger {
+    min-width: 160px;
+  }
+
+  .dropdown {
+    width: calc(100vw - 48px);
+    max-width: 320px;
+  }
+}

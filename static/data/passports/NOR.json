@@ -1,0 +1,996 @@
+{
+  "passport": "NOR",
+  "updated": "2026-05-07",
+  "destinations": {
+    "AFG": {
+      "tourism": {
+        "requirement": "VR"
+      }
+    },
+    "AGO": {
+      "tourism": {
+        "requirement": "VF"
+      }
+    },
+    "ALB": {
+      "tourism": {
+        "requirement": "VF"
+      }
+    },
+    "AND": {
+      "tourism": {
+        "requirement": "VF"
+      }
+    },
+    "ARE": {
+      "tourism": {
+        "requirement": "VF"
+      }
+    },
+    "ARG": {
+      "tourism": {
+        "requirement": "VF"
+      }
+    },
+    "ARM": {
+      "tourism": {
+        "requirement": "VF"
+      }
+    },
+    "ATG": {
+      "tourism": {
+        "requirement": "VF"
+      }
+    },
+    "AUS": {
+      "tourism": {
+        "requirement": "ETA"
+      }
+    },
+    "AUT": {
+      "tourism": {
+        "requirement": "VF"
+      }
+    },
+    "AZE": {
+      "tourism": {
+        "requirement": "ETA"
+      }
+    },
+    "BDI": {
+      "tourism": {
+        "requirement": "VOA"
+      }
+    },
+    "BEL": {
+      "tourism": {
+        "requirement": "VF"
+      }
+    },
+    "BEN": {
+      "tourism": {
+        "requirement": "ETA"
+      }
+    },
+    "BFA": {
+      "tourism": {
+        "requirement": "ETA"
+      }
+    },
+    "BGD": {
+      "tourism": {
+        "requirement": "VOA"
+      }
+    },
+    "BGR": {
+      "tourism": {
+        "requirement": "VF"
+      }
+    },
+    "BHR": {
+      "tourism": {
+        "requirement": "VOA"
+      }
+    },
+    "BHS": {
+      "tourism": {
+        "requirement": "VF"
+      }
+    },
+    "BIH": {
+      "tourism": {
+        "requirement": "VF"
+      }
+    },
+    "BLR": {
+      "tourism": {
+        "requirement": "VF"
+      }
+    },
+    "BLZ": {
+      "tourism": {
+        "requirement": "VF"
+      }
+    },
+    "BOL": {
+      "tourism": {
+        "requirement": "VF"
+      }
+    },
+    "BRA": {
+      "tourism": {
+        "requirement": "VF"
+      }
+    },
+    "BRB": {
+      "tourism": {
+        "requirement": "VF"
+      }
+    },
+    "BRN": {
+      "tourism": {
+        "requirement": "VF"
+      }
+    },
+    "BTN": {
+      "tourism": {
+        "requirement": "ETA"
+      }
+    },
+    "BWA": {
+      "tourism": {
+        "requirement": "VF"
+      }
+    },
+    "CAF": {
+      "tourism": {
+        "requirement": "VR"
+      }
+    },
+    "CAN": {
+      "tourism": {
+        "requirement": "ETA"
+      }
+    },
+    "CHE": {
+      "tourism": {
+        "requirement": "VF"
+      }
+    },
+    "CHL": {
+      "tourism": {
+        "requirement": "VF"
+      }
+    },
+    "CHN": {
+      "tourism": {
+        "requirement": "VF"
+      }
+    },
+    "CIV": {
+      "tourism": {
+        "requirement": "ETA"
+      }
+    },
+    "CMR": {
+      "tourism": {
+        "requirement": "ETA"
+      }
+    },
+    "COD": {
+      "tourism": {
+        "requirement": "ETA"
+      }
+    },
+    "COG": {
+      "tourism": {
+        "requirement": "VR"
+      }
+    },
+    "COL": {
+      "tourism": {
+        "requirement": "VF"
+      }
+    },
+    "COM": {
+      "tourism": {
+        "requirement": "VOA"
+      }
+    },
+    "CPV": {
+      "tourism": {
+        "requirement": "VF"
+      }
+    },
+    "CRI": {
+      "tourism": {
+        "requirement": "VF"
+      }
+    },
+    "CUB": {
+      "tourism": {
+        "requirement": "ETA"
+      }
+    },
+    "CYP": {
+      "tourism": {
+        "requirement": "VF"
+      }
+    },
+    "CZE": {
+      "tourism": {
+        "requirement": "VF"
+      }
+    },
+    "DEU": {
+      "tourism": {
+        "requirement": "VF"
+      }
+    },
+    "DJI": {
+      "tourism": {
+        "requirement": "VOA"
+      }
+    },
+    "DMA": {
+      "tourism": {
+        "requirement": "VF"
+      }
+    },
+    "DNK": {
+      "tourism": {
+        "requirement": "VF"
+      }
+    },
+    "DOM": {
+      "tourism": {
+        "requirement": "VF"
+      }
+    },
+    "DZA": {
+      "tourism": {
+        "requirement": "VR"
+      }
+    },
+    "ECU": {
+      "tourism": {
+        "requirement": "VF"
+      }
+    },
+    "EGY": {
+      "tourism": {
+        "requirement": "VOA"
+      }
+    },
+    "ERI": {
+      "tourism": {
+        "requirement": "VR"
+      }
+    },
+    "ESP": {
+      "tourism": {
+        "requirement": "VF"
+      }
+    },
+    "EST": {
+      "tourism": {
+        "requirement": "VF"
+      }
+    },
+    "ETH": {
+      "tourism": {
+        "requirement": "VOA"
+      }
+    },
+    "FIN": {
+      "tourism": {
+        "requirement": "VF"
+      }
+    },
+    "FJI": {
+      "tourism": {
+        "requirement": "VF"
+      }
+    },
+    "FRA": {
+      "tourism": {
+        "requirement": "VF"
+      }
+    },
+    "FSM": {
+      "tourism": {
+        "requirement": "VF"
+      }
+    },
+    "GAB": {
+      "tourism": {
+        "requirement": "ETA"
+      }
+    },
+    "GBR": {
+      "tourism": {
+        "requirement": "ETA"
+      }
+    },
+    "GEO": {
+      "tourism": {
+        "requirement": "VF"
+      }
+    },
+    "GHA": {
+      "tourism": {
+        "requirement": "VR"
+      }
+    },
+    "GIN": {
+      "tourism": {
+        "requirement": "ETA"
+      }
+    },
+    "GMB": {
+      "tourism": {
+        "requirement": "VF"
+      }
+    },
+    "GNB": {
+      "tourism": {
+        "requirement": "VOA"
+      }
+    },
+    "GNQ": {
+      "tourism": {
+        "requirement": "ETA"
+      }
+    },
+    "GRC": {
+      "tourism": {
+        "requirement": "VF"
+      }
+    },
+    "GRD": {
+      "tourism": {
+        "requirement": "VF"
+      }
+    },
+    "GTM": {
+      "tourism": {
+        "requirement": "VF"
+      }
+    },
+    "GUY": {
+      "tourism": {
+        "requirement": "VF"
+      }
+    },
+    "HKG": {
+      "tourism": {
+        "requirement": "VF"
+      }
+    },
+    "HND": {
+      "tourism": {
+        "requirement": "VF"
+      }
+    },
+    "HRV": {
+      "tourism": {
+        "requirement": "VF"
+      }
+    },
+    "HTI": {
+      "tourism": {
+        "requirement": "VF"
+      }
+    },
+    "HUN": {
+      "tourism": {
+        "requirement": "VF"
+      }
+    },
+    "IDN": {
+      "tourism": {
+        "requirement": "VOA"
+      }
+    },
+    "IND": {
+      "tourism": {
+        "requirement": "ETA"
+      }
+    },
+    "IRL": {
+      "tourism": {
+        "requirement": "VF"
+      }
+    },
+    "IRN": {
+      "tourism": {
+        "requirement": "VOA"
+      }
+    },
+    "IRQ": {
+      "tourism": {
+        "requirement": "ETA"
+      }
+    },
+    "ISL": {
+      "tourism": {
+        "requirement": "VF"
+      }
+    },
+    "ISR": {
+      "tourism": {
+        "requirement": "ETA"
+      }
+    },
+    "ITA": {
+      "tourism": {
+        "requirement": "VF"
+      }
+    },
+    "JAM": {
+      "tourism": {
+        "requirement": "VF"
+      }
+    },
+    "JOR": {
+      "tourism": {
+        "requirement": "VOA"
+      }
+    },
+    "JPN": {
+      "tourism": {
+        "requirement": "VF"
+      }
+    },
+    "KAZ": {
+      "tourism": {
+        "requirement": "VF"
+      }
+    },
+    "KEN": {
+      "tourism": {
+        "requirement": "ETA"
+      }
+    },
+    "KGZ": {
+      "tourism": {
+        "requirement": "VF"
+      }
+    },
+    "KHM": {
+      "tourism": {
+        "requirement": "VOA"
+      }
+    },
+    "KIR": {
+      "tourism": {
+        "requirement": "VF"
+      }
+    },
+    "KNA": {
+      "tourism": {
+        "requirement": "ETA"
+      }
+    },
+    "KOR": {
+      "tourism": {
+        "requirement": "VF"
+      }
+    },
+    "KWT": {
+      "tourism": {
+        "requirement": "VOA"
+      }
+    },
+    "LAO": {
+      "tourism": {
+        "requirement": "VOA"
+      }
+    },
+    "LBN": {
+      "tourism": {
+        "requirement": "VOA"
+      }
+    },
+    "LBR": {
+      "tourism": {
+        "requirement": "ETA"
+      }
+    },
+    "LBY": {
+      "tourism": {
+        "requirement": "ETA"
+      }
+    },
+    "LCA": {
+      "tourism": {
+        "requirement": "VF"
+      }
+    },
+    "LIE": {
+      "tourism": {
+        "requirement": "VF"
+      }
+    },
+    "LKA": {
+      "tourism": {
+        "requirement": "VOA"
+      }
+    },
+    "LSO": {
+      "tourism": {
+        "requirement": "VF"
+      }
+    },
+    "LTU": {
+      "tourism": {
+        "requirement": "VF"
+      }
+    },
+    "LUX": {
+      "tourism": {
+        "requirement": "VF"
+      }
+    },
+    "LVA": {
+      "tourism": {
+        "requirement": "VF"
+      }
+    },
+    "MAC": {
+      "tourism": {
+        "requirement": "VF"
+      }
+    },
+    "MAR": {
+      "tourism": {
+        "requirement": "VF"
+      }
+    },
+    "MCO": {
+      "tourism": {
+        "requirement": "VF"
+      }
+    },
+    "MDA": {
+      "tourism": {
+        "requirement": "VF"
+      }
+    },
+    "MDG": {
+      "tourism": {
+        "requirement": "VOA"
+      }
+    },
+    "MDV": {
+      "tourism": {
+        "requirement": "VOA"
+      }
+    },
+    "MEX": {
+      "tourism": {
+        "requirement": "VF"
+      }
+    },
+    "MHL": {
+      "tourism": {
+        "requirement": "VOA"
+      }
+    },
+    "MKD": {
+      "tourism": {
+        "requirement": "VF"
+      }
+    },
+    "MLI": {
+      "tourism": {
+        "requirement": "VR"
+      }
+    },
+    "MLT": {
+      "tourism": {
+        "requirement": "VF"
+      }
+    },
+    "MMR": {
+      "tourism": {
+        "requirement": "ETA"
+      }
+    },
+    "MNE": {
+      "tourism": {
+        "requirement": "VF"
+      }
+    },
+    "MNG": {
+      "tourism": {
+        "requirement": "VF"
+      }
+    },
+    "MOZ": {
+      "tourism": {
+        "requirement": "VF"
+      }
+    },
+    "MRT": {
+      "tourism": {
+        "requirement": "ETA"
+      }
+    },
+    "MUS": {
+      "tourism": {
+        "requirement": "VF"
+      }
+    },
+    "MWI": {
+      "tourism": {
+        "requirement": "VF"
+      }
+    },
+    "MYS": {
+      "tourism": {
+        "requirement": "VF"
+      }
+    },
+    "NAM": {
+      "tourism": {
+        "requirement": "VOA"
+      }
+    },
+    "NER": {
+      "tourism": {
+        "requirement": "VR"
+      }
+    },
+    "NGA": {
+      "tourism": {
+        "requirement": "ETA"
+      }
+    },
+    "NIC": {
+      "tourism": {
+        "requirement": "VF"
+      }
+    },
+    "NLD": {
+      "tourism": {
+        "requirement": "VF"
+      }
+    },
+    "NPL": {
+      "tourism": {
+        "requirement": "VOA"
+      }
+    },
+    "NRU": {
+      "tourism": {
+        "requirement": "VR"
+      }
+    },
+    "NZL": {
+      "tourism": {
+        "requirement": "ETA"
+      }
+    },
+    "OMN": {
+      "tourism": {
+        "requirement": "VOA"
+      }
+    },
+    "PAK": {
+      "tourism": {
+        "requirement": "ETA"
+      }
+    },
+    "PAN": {
+      "tourism": {
+        "requirement": "VF"
+      }
+    },
+    "PER": {
+      "tourism": {
+        "requirement": "VF"
+      }
+    },
+    "PHL": {
+      "tourism": {
+        "requirement": "VF"
+      }
+    },
+    "PLW": {
+      "tourism": {
+        "requirement": "VOA"
+      }
+    },
+    "PNG": {
+      "tourism": {
+        "requirement": "ETA"
+      }
+    },
+    "POL": {
+      "tourism": {
+        "requirement": "VF"
+      }
+    },
+    "PRK": {
+      "tourism": {
+        "requirement": "VR"
+      }
+    },
+    "PRT": {
+      "tourism": {
+        "requirement": "VF"
+      }
+    },
+    "PRY": {
+      "tourism": {
+        "requirement": "VF"
+      }
+    },
+    "PSE": {
+      "tourism": {
+        "requirement": "VF"
+      }
+    },
+    "QAT": {
+      "tourism": {
+        "requirement": "VOA"
+      }
+    },
+    "ROU": {
+      "tourism": {
+        "requirement": "VF"
+      }
+    },
+    "RUS": {
+      "tourism": {
+        "requirement": "ETA"
+      }
+    },
+    "RWA": {
+      "tourism": {
+        "requirement": "VOA"
+      }
+    },
+    "SAU": {
+      "tourism": {
+        "requirement": "VOA"
+      }
+    },
+    "SDN": {
+      "tourism": {
+        "requirement": "VR"
+      }
+    },
+    "SEN": {
+      "tourism": {
+        "requirement": "VOA"
+      }
+    },
+    "SGP": {
+      "tourism": {
+        "requirement": "VF"
+      }
+    },
+    "SLB": {
+      "tourism": {
+        "requirement": "VF"
+      }
+    },
+    "SLE": {
+      "tourism": {
+        "requirement": "VOA"
+      }
+    },
+    "SLV": {
+      "tourism": {
+        "requirement": "VF"
+      }
+    },
+    "SMR": {
+      "tourism": {
+        "requirement": "VF"
+      }
+    },
+    "SOM": {
+      "tourism": {
+        "requirement": "ETA"
+      }
+    },
+    "SRB": {
+      "tourism": {
+        "requirement": "VF"
+      }
+    },
+    "SSD": {
+      "tourism": {
+        "requirement": "ETA"
+      }
+    },
+    "STP": {
+      "tourism": {
+        "requirement": "VF"
+      }
+    },
+    "SUR": {
+      "tourism": {
+        "requirement": "ETA"
+      }
+    },
+    "SVK": {
+      "tourism": {
+        "requirement": "VF"
+      }
+    },
+    "SVN": {
+      "tourism": {
+        "requirement": "VF"
+      }
+    },
+    "SWE": {
+      "tourism": {
+        "requirement": "VF"
+      }
+    },
+    "SWZ": {
+      "tourism": {
+        "requirement": "VF"
+      }
+    },
+    "SYC": {
+      "tourism": {
+        "requirement": "VF"
+      }
+    },
+    "SYR": {
+      "tourism": {
+        "requirement": "ETA"
+      }
+    },
+    "TCD": {
+      "tourism": {
+        "requirement": "ETA"
+      }
+    },
+    "TGO": {
+      "tourism": {
+        "requirement": "ETA"
+      }
+    },
+    "THA": {
+      "tourism": {
+        "requirement": "VF"
+      }
+    },
+    "TJK": {
+      "tourism": {
+        "requirement": "VF"
+      }
+    },
+    "TKM": {
+      "tourism": {
+        "requirement": "VR"
+      }
+    },
+    "TLS": {
+      "tourism": {
+        "requirement": "VF"
+      }
+    },
+    "TON": {
+      "tourism": {
+        "requirement": "VF"
+      }
+    },
+    "TTO": {
+      "tourism": {
+        "requirement": "VF"
+      }
+    },
+    "TUN": {
+      "tourism": {
+        "requirement": "VF"
+      }
+    },
+    "TUR": {
+      "tourism": {
+        "requirement": "VF"
+      }
+    },
+    "TUV": {
+      "tourism": {
+        "requirement": "VF"
+      }
+    },
+    "TWN": {
+      "tourism": {
+        "requirement": "VF"
+      }
+    },
+    "TZA": {
+      "tourism": {
+        "requirement": "VOA"
+      }
+    },
+    "UGA": {
+      "tourism": {
+        "requirement": "ETA"
+      }
+    },
+    "UKR": {
+      "tourism": {
+        "requirement": "VF"
+      }
+    },
+    "URY": {
+      "tourism": {
+        "requirement": "VF"
+      }
+    },
+    "USA": {
+      "tourism": {
+        "requirement": "ETA"
+      }
+    },
+    "UZB": {
+      "tourism": {
+        "requirement": "VF"
+      }
+    },
+    "VAT": {
+      "tourism": {
+        "requirement": "VF"
+      }
+    },
+    "VCT": {
+      "tourism": {
+        "requirement": "VF"
+      }
+    },
+    "VEN": {
+      "tourism": {
+        "requirement": "VF"
+      }
+    },
+    "VNM": {
+      "tourism": {
+        "requirement": "VF"
+      }
+    },
+    "VUT": {
+      "tourism": {
+        "requirement": "VF"
+      }
+    },
+    "WSM": {
+      "tourism": {
+        "requirement": "VOA"
+      }
+    },
+    "XKX": {
+      "tourism": {
+        "requirement": "VF"
+      }
+    },
+    "YEM": {
+      "tourism": {
+        "requirement": "VR"
+      }
+    },
+    "ZAF": {
+      "tourism": {
+        "requirement": "VF"
+      }
+    },
+    "ZMB": {
+      "tourism": {
+        "requirement": "VF"
+      }
+    },
+    "ZWE": {
+      "tourism": {
+        "requirement": "VOA"
+      }
+    }
+  }
+}

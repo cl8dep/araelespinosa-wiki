@@ -34,6 +34,15 @@ El sitio está organizado por país y tipo de trámite. Cada página detalla req
 
 - [Visa de tránsito para cubanos](https://wiki.araelespinosa.me/docs/migration/panama/visa-de-transito): Requisitos para transitar por Panamá con destino a Uruguay u otros países.
 
+## Observatorio de Visas
+
+Herramienta interactiva con requisitos de visa por país de destino para pasaportes latinoamericanos. Incluye excepciones por residencia en terceros países, acuerdos bilaterales y condiciones de tránsito. Datos base: dataset open-source passport-index-data (MIT, 199 países). Excepciones documentadas manualmente con fuentes oficiales (decretos, resoluciones).
+
+- [Observatorio de Visas](https://wiki.araelespinosa.me/visas): Consulta interactiva de requisitos por pasaporte y destino, con excepciones y condiciones de tránsito.
+- [Dataset público — Cuba](https://wiki.araelespinosa.me/data/passports/CUB.json): Requisitos de visa para pasaporte cubano en formato JSON (199 destinos, excepciones incluidas).
+- [Dataset público — Venezuela](https://wiki.araelespinosa.me/data/passports/VEN.json): Requisitos de visa para pasaporte venezolano en formato JSON.
+- [Índice de datasets](https://wiki.araelespinosa.me/data/passports/index.json): Listado completo de todos los pasaportes disponibles con sus URLs de acceso.
+
 ## Optional
 
 - [Términos y condiciones](https://wiki.araelespinosa.me/terms): Aviso legal, descargo de responsabilidad y alcance de la información publicada.
