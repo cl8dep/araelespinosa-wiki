@@ -85,19 +85,19 @@ const countries = [
     name: 'Cuba',
     iso2: 'cu',
     description: 'Trámites del Consulado de Uruguay en Cuba: visas, legalización de documentos y más.',
-    link: '/docs/migration/cuba',
+    link: '/docs/category/cuba',
   },
   {
     name: 'Panamá',
     iso2: 'pa',
     description: 'Recursos e información para cubanos en tránsito o residentes en Panamá.',
-    link: '/docs/migration/panama',
+    link: '/docs/category/panama',
   },
   {
     name: 'Uruguay',
     iso2: 'uy',
     description: 'Residencia legal, cédula de identidad, banca y más para migrantes en Uruguay.',
-    link: '/docs/migration/uruguay',
+    link: '/docs/category/uruguay',
   },
 ];
 
