@@ -172,7 +172,24 @@ export default function VisaResultsTable({
                       <span style={{opacity: 0.45}}><ReqBadge req={transit.requirement} /></span>
                     </div>
                   ) : (
-                    <ReqBadge req={transit.requirement} />
+                    <div style={{display: 'flex', flexDirection: 'column', gap: 2}}>
+                      <ReqBadge req={transit.requirement} />
+                      {transit.maxStay && (
+                        <span style={{fontSize: 10, color: 'var(--ifm-color-content-secondary)'}}>
+                          Máx. {transit.maxStay}
+                        </span>
+                      )}
+                      {transit.notes && (
+                        <span style={{fontSize: 10, color: 'var(--ifm-color-content-secondary)'}}>
+                          {transit.notes}
+                        </span>
+                      )}
+                      {transit.airsideOnly !== undefined && (
+                        <span style={{fontSize: 10, color: 'var(--ifm-color-content-secondary)'}}>
+                          {transit.airsideOnly ? 'Solo área internacional' : 'Puede salir del aeropuerto'}
+                        </span>
+                      )}
+                    </div>
                   )}
                 </div>
               )}
@@ -298,6 +315,16 @@ export default function VisaResultsTable({
                       ) : (
                         <>
                           <ReqBadge req={transit.requirement} />
+                          {transit.maxStay && (
+                            <span style={{fontSize: 11, color: 'var(--ifm-color-content-secondary)'}}>
+                              Máx. {transit.maxStay}
+                            </span>
+                          )}
+                          {transit.notes && (
+                            <span style={{fontSize: 11, color: 'var(--ifm-color-content-secondary)'}}>
+                              {transit.notes}
+                            </span>
+                          )}
                           {transit.airsideOnly !== undefined && (
                             <span style={{
                               display: 'inline-flex', alignItems: 'center', gap: 4,

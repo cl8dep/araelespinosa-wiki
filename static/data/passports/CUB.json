@@ -34,7 +34,6 @@
       "transit": {
         "requirement": "TF",
         "airsideOnly": true,
-        "notes": "Tránsito libre solo permaneciendo en el área internacional del aeropuerto",
         "landsideRequirement": "TV"
       }
     },
@@ -161,6 +160,10 @@
     "CHE": {
       "tourism": {
         "requirement": "VR"
+      },
+      "transit": {
+        "requirement": "TV",
+        "airsideOnly": true
       }
     },
     "CHL": {
@@ -237,6 +240,9 @@
     "CRI": {
       "tourism": {
         "requirement": "VR"
+      },
+      "transit": {
+        "requirement": "TV"
       }
     },
     "CYP": {
@@ -252,6 +258,40 @@
     "DEU": {
       "tourism": {
         "requirement": "VR"
+      },
+      "transit": {
+        "requirement": "TV",
+        "airsideOnly": true,
+        "exceptions": [
+          {
+            "condition": "Titulares de visas válidas y permisos nacionales de residencia de Estados de la UE y Schengen",
+            "result": "TF",
+            "source": "Federal Foreign Office",
+            "sourceUrl": "https://www.auswaertiges-amt.de/en/visa-service/buergerservice/faq/33-transit/606710",
+            "verified": true
+          },
+          {
+            "condition": "Titulares de ciertos permisos nacionales de residencia de Andorra, Japón, Canadá, San Marino o Estados Unidos de América",
+            "result": "TF",
+            "source": "Federal Foreign Office",
+            "sourceUrl": "https://www.auswaertiges-amt.de/en/visa-service/buergerservice/faq/33-transit/606710",
+            "verified": true
+          },
+          {
+            "condition": "Titulares de visas válidas de países del EEE, así como de visas emitidas por Japón, Canadá y Estados Unidos de América",
+            "result": "TF",
+            "source": "Federal Foreign Office",
+            "sourceUrl": "https://www.auswaertiges-amt.de/en/visa-service/buergerservice/faq/33-transit/606710",
+            "verified": true
+          },
+          {
+            "condition": "Familiares de ciudadanos de la UE con derecho a libre circulación",
+            "result": "TF",
+            "source": "Federal Foreign Office",
+            "sourceUrl": "https://www.auswaertiges-amt.de/en/visa-service/buergerservice/faq/33-transit/606710",
+            "verified": true
+          }
+        ]
       }
     },
     "DJI": {
@@ -272,6 +312,10 @@
     "DOM": {
       "tourism": {
         "requirement": "VR"
+      },
+      "transit": {
+        "requirement": "TF",
+        "airsideOnly": true
       }
     },
     "DZA": {
@@ -282,6 +326,9 @@
     "ECU": {
       "tourism": {
         "requirement": "ETA"
+      },
+      "transit": {
+        "requirement": "TV"
       }
     },
     "EGY": {
@@ -297,6 +344,40 @@
     "ESP": {
       "tourism": {
         "requirement": "VR"
+      },
+      "transit": {
+        "requirement": "TV",
+        "airsideOnly": true,
+        "exceptions": [
+          {
+            "condition": "Titulares de visado uniforme, visado nacional de larga duración o permiso de residencia de un Estado Schengen",
+            "result": "TF",
+            "source": "Ministerio de Asuntos Exteriores de España",
+            "sourceUrl": "https://www.exteriores.gob.es/Consulados/ciudaddelcabo/en/ServiciosConsulares/Paginas/Consular/Visado-de-transito-aeroportuario.aspx",
+            "verified": true
+          },
+          {
+            "condition": "Titulares de pasaporte diplomático, de servicio o especial cubano",
+            "result": "TF",
+            "source": "Ministerio de Asuntos Exteriores de España",
+            "sourceUrl": "https://www.exteriores.gob.es/Consulados/ciudaddelcabo/en/ServiciosConsulares/Paginas/Consular/Visado-de-transito-aeroportuario.aspx",
+            "verified": true
+          },
+          {
+            "condition": "Tripulaciones aéreas de Estados parte del Convenio de Chicago",
+            "result": "TF",
+            "source": "Ministerio de Asuntos Exteriores de España",
+            "sourceUrl": "https://www.exteriores.gob.es/Consulados/ciudaddelcabo/en/ServiciosConsulares/Paginas/Consular/Visado-de-transito-aeroportuario.aspx",
+            "verified": true
+          },
+          {
+            "condition": "Titulares de visas o residencias de la UE, el EEE, Suiza, Andorra, Canadá, Estados Unidos, Japón, San Marino o territorios de ultramar neerlandeses; y familiares de ciudadanos de la UE, el EEE o Suiza",
+            "result": "TF",
+            "source": "Ministerio de Asuntos Exteriores de España",
+            "sourceUrl": "https://www.exteriores.gob.es/Consulados/ciudaddelcabo/en/ServiciosConsulares/Paginas/Consular/Visado-de-transito-aeroportuario.aspx",
+            "verified": true
+          }
+        ]
       }
     },
     "EST": {
@@ -457,6 +538,9 @@
     "JAM": {
       "tourism": {
         "requirement": "VR"
+      },
+      "transit": {
+        "requirement": "TV"
       }
     },
     "JOR": {
@@ -597,6 +681,10 @@
     "MEX": {
       "tourism": {
         "requirement": "VR"
+      },
+      "transit": {
+        "requirement": "TV",
+        "airsideOnly": true
       }
     },
     "MHL": {
@@ -771,13 +859,17 @@
             "verified": true,
             "sourceUrl": "https://www.gacetaoficial.gob.pa/storage/gacetas/2023/03/29748_B/97566.pdf"
           }
-        ],
-        "notes": "Tránsito en aeropuerto de Tocumen (PTY)"
+        ]
       }
     },
     "PER": {
       "tourism": {
         "requirement": "VR"
+      },
+      "transit": {
+        "requirement": "TV",
+        "airsideOnly": false,
+        "maxStay": "2 días, prorrogable hasta 15 días"
       }
     },
     "PHL": {
@@ -973,6 +1065,9 @@
     "TTO": {
       "tourism": {
         "requirement": "VF"
+      },
+      "transit": {
+        "requirement": "TF"
       }
     },
     "TUN": {
@@ -1018,6 +1113,9 @@
     "USA": {
       "tourism": {
         "requirement": "VR"
+      },
+      "transit": {
+        "requirement": "TV"
       }
     },
     "UZB": {
@@ -1038,6 +1136,10 @@
     "VEN": {
       "tourism": {
         "requirement": "VR"
+      },
+      "transit": {
+        "requirement": "TV",
+        "airsideOnly": false
       }
     },
     "VNM": {
