@@ -1,8 +1,8 @@
 import React from 'react';
-import type {VisaDestination, VisaException, VisaRequirement} from '@site/src/types/visa';
+import type {VisaDestination, VisaException, VisaRequirement, VisaTransit} from '@site/src/types/visa';
 import {COUNTRY_NAMES} from '@site/src/data/country-names';
 import {ISO3_TO_ISO2} from '@site/src/data/iso3-to-iso2';
-import {Search, PlaneTakeoff, DoorOpen, CheckCircle, HelpCircle} from 'lucide-react';
+import {Search, CheckCircle, HelpCircle} from 'lucide-react';
 import {REQUIREMENT_COLORS, REQUIREMENT_DESCRIPTIONS, REQUIREMENT_LABELS} from './visaColors';
 import VisaReqIcon from './VisaReqIcon';
 import InfoTooltip from './InfoTooltip';
@@ -78,6 +78,66 @@ function ReqBadge({req}: {req: VisaRequirement}): React.JSX.Element {
         <VisaReqIcon req={req} /> {REQUIREMENT_LABELS[req]}
       </span>
     </InfoTooltip>
+  );
+}
+
+function TransitDetails({transit}: {transit: VisaTransit}): React.JSX.Element | null {
+  if (
+    !transit.maxStay &&
+    !transit.notes &&
+    transit.airsideOnly === undefined &&
+    !transit.landsideRequirement
+  ) {
+    return null;
+  }
+
+  return (
+    <div style={{display: 'flex', flexDirection: 'column', gap: 2}}>
+      {transit.maxStay && (
+        <span style={{fontSize: 11, color: 'var(--ifm-color-content-secondary)'}}>
+          Máx. {transit.maxStay}
+        </span>
+      )}
+      {transit.notes && (
+        <span style={{fontSize: 11, color: 'var(--ifm-color-content-secondary)'}}>
+          {transit.notes}
+        </span>
+      )}
+      {transit.airsideOnly !== undefined && (
+        <span style={{
+          display: 'inline-flex',
+          alignItems: 'center',
+          gap: 4,
+          flexWrap: 'wrap',
+          fontSize: 11,
+          color: 'var(--ifm-color-content-secondary)',
+        }}>
+          {transit.airsideOnly
+            ? <>Solo área internacional</>
+            : <>Puede salir del aeropuerto</>}
+          <InfoTooltip
+            content={
+              transit.airsideOnly
+                ? 'Debes permanecer en el área internacional del aeropuerto. No puedes pasar por migración ni salir del recinto aeroportuario.'
+                : 'Puedes pasar por migración y salir del aeropuerto durante la escala, sujeto a las condiciones de tu visa.'
+            }
+          />
+        </span>
+      )}
+      {transit.landsideRequirement && (
+        <span style={{
+          display: 'inline-flex',
+          alignItems: 'center',
+          gap: 4,
+          flexWrap: 'wrap',
+          fontSize: 11,
+          color: 'var(--ifm-color-content-secondary)',
+        }}>
+          Si sales del área internacional o haces check-in de nuevo,{' '}
+          <ReqBadge req={transit.landsideRequirement} />
+        </span>
+      )}
+    </div>
   );
 }
 
@@ -174,21 +234,7 @@ export default function VisaResultsTable({
                   ) : (
                     <div style={{display: 'flex', flexDirection: 'column', gap: 2}}>
                       <ReqBadge req={transit.requirement} />
-                      {transit.maxStay && (
-                        <span style={{fontSize: 10, color: 'var(--ifm-color-content-secondary)'}}>
-                          Máx. {transit.maxStay}
-                        </span>
-                      )}
-                      {transit.notes && (
-                        <span style={{fontSize: 10, color: 'var(--ifm-color-content-secondary)'}}>
-                          {transit.notes}
-                        </span>
-                      )}
-                      {transit.airsideOnly !== undefined && (
-                        <span style={{fontSize: 10, color: 'var(--ifm-color-content-secondary)'}}>
-                          {transit.airsideOnly ? 'Solo área internacional' : 'Puede salir del aeropuerto'}
-                        </span>
-                      )}
+                      <TransitDetails transit={transit} />
                     </div>
                   )}
                 </div>
@@ -315,31 +361,7 @@ export default function VisaResultsTable({
                       ) : (
                         <>
                           <ReqBadge req={transit.requirement} />
-                          {transit.maxStay && (
-                            <span style={{fontSize: 11, color: 'var(--ifm-color-content-secondary)'}}>
-                              Máx. {transit.maxStay}
-                            </span>
-                          )}
-                          {transit.notes && (
-                            <span style={{fontSize: 11, color: 'var(--ifm-color-content-secondary)'}}>
-                              {transit.notes}
-                            </span>
-                          )}
-                          {transit.airsideOnly !== undefined && (
-                            <span style={{
-                              display: 'inline-flex', alignItems: 'center', gap: 4,
-                              fontSize: 11, color: 'var(--ifm-color-content-secondary)',
-                            }}>
-                              {transit.airsideOnly
-                                ? <><PlaneTakeoff size={11} strokeWidth={2} /> Solo área internacional</>
-                                : <><DoorOpen size={11} strokeWidth={2} /> Puede salir del aeropuerto</>}
-                              <InfoTooltip content={
-                                transit.airsideOnly
-                                  ? 'Debes permanecer en el área internacional del aeropuerto. No puedes pasar por migración ni salir del recinto aeroportuario.'
-                                  : 'Puedes pasar por migración y salir del aeropuerto durante la escala, sujeto a las condiciones de tu visa.'
-                              } />
-                            </span>
-                          )}
+                          <TransitDetails transit={transit} />
                         </>
                       )}
                     </div>

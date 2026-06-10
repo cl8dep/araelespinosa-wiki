@@ -1,13 +1,14 @@
 ---
 sidebar_position: 10
 title: Contacto
-description: Dirección, teléfonos, horarios y mapa del Consulado de Cuba (Oficina Consular) en Montevideo, Uruguay. Información para gestionar citas y trámites consulares cubanos.
+description: Dirección, teléfonos, horarios, pagos y mapa del Consulado de Cuba (Oficina Consular) en Montevideo, Uruguay. Información para gestionar citas y trámites consulares cubanos.
 keywords:
   - consulado cuba uruguay
   - oficina consular cuba montevideo
   - contacto consulado cuba
   - dirección consulado cuba uruguay
   - cita consular cuba uruguay
+  - pago de servicios consulado cuba uruguay
 tags: [contacto, consulado, cuba, uruguay, montevideo]
 ---
 
@@ -71,7 +72,6 @@ La **Oficina Consular de Cuba en Montevideo** atiende a los ciudadanos cubanos r
 El acceso a los locales del Consulado y la Embajada es de **vestimenta adecuada obligatoria**.
 :::
 
-
 ## Dirección
 
 **Calle Feliciano Rodríguez No. 2690, Parque Batlle, Montevideo, Uruguay.**
@@ -87,7 +87,6 @@ El acceso a los locales del Consulado y la Embajada es de **vestimenta adecuada 
   title="Mapa Consulado de Cuba en Montevideo"
 />
 
-
 ## Horarios de atención
 
 | Servicio | Días | Horario |
@@ -97,23 +96,33 @@ El acceso a los locales del Consulado y la Embajada es de **vestimenta adecuada 
 | Consultas presenciales | Lunes a Viernes | 12:00 y 13:00 hrs |
 | Consultas telefónicas | Lunes a Viernes | 15:00 y 16:00 hrs |
 
-
 ## Contacto
 
-- **Teléfono**: 2709 0035, interno 17
-- **WhatsApp**: [+598 94 939 890](https://wa.me/59894939890)
-- **Email (solicitud de citas)**: [consuladocitasuy@gmail.com](mailto:consuladocitasuy@gmail.com)
+- **Teléfono para consultas:** 2709 0035, internos 10 y 17.
+- **WhatsApp:** [+598 94 939 890](https://wa.me/59894939890)
+- **Correo para solicitud de cita:** [consuladocitasuy@gmail.com](mailto:consuladocitasuy@gmail.com)
 
-:::info
-La solicitud de cita debe enviarse al correo **consuladocitasuy@gmail.com**. Se recomienda hacerlo con anticipación, ya que los turnos suelen tener demanda.
-:::
+La solicitud de cita debe enviarse al correo **consuladocitasuy@gmail.com** y conviene hacerlo con anticipación.
 
+## Información sobre pago de servicios
 
-:::info **¿Necesita asesoría para su trámite consular?**
+Los trámites consulares del Consulado de Cuba en Uruguay:
 
-Soy gestor y puedo acompañarle en la preparación de documentos y coordinación del proceso. Contácteme:
+- Se cobran **solo en pesos uruguayos**.
+- Se pagan en la **cuenta corriente en pesos 506871** de la Embajada de Cuba, sucursal del **Banco de la Nación Argentina en Uruguay**.
+- Admiten **transferencia bancaria**, **Red Pagos** y **Abitab**.
+- En depósitos por redes de cobranza, debe anteponerse un **0** al número de cuenta y realizar el depósito antes de las **17:00 hrs**.
+- El pago debe realizarse **luego de recibir la confirmación de la cita consular**.
+- Se debe solicitar el **recibo original e impreso** para presentarlo en el Consulado.
+- Los depósitos o transferencias que superen los **6 meses** sin solicitud de devolución no podrán ser reintegrados.
+- Si se gestiona un servicio **a nombre de otra persona**, también debe pagarse el **trámite no personal**.
+- En los casos de **menores de edad**, el trámite no personal **no implica costo**.
+
+Estas indicaciones aplican a los trámites consulares en general y son útiles para cualquier gestión que se haga en esta oficina.
+
+## ¿Necesita asesoría para su trámite consular?
+
+Puedo acompañarle en la preparación de documentos y coordinación del proceso.
 
 - **WhatsApp**: [+598 99 598 034](https://wa.me/59899598034)
 - **Correo**: [gestoria@araelespinosa.me](mailto:gestoria@araelespinosa.me)
-
-:::

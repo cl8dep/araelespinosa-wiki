@@ -19,7 +19,8 @@ El sitio está organizado por país y tipo de trámite. Cada página detalla req
 ## Consulado de Cuba en Uruguay (Montevideo)
 
 - [Renovación o confección de pasaporte cubano](https://wiki.araelespinosa.me/docs/migration/uruguay/consulado-cuba-en-uruguay/renovacion-pasaporte): Requisitos, costos en pesos uruguayos, formas de pago y planillas descargables.
-- [Contacto — Consulado de Cuba en Uruguay](https://wiki.araelespinosa.me/docs/migration/uruguay/consulado-cuba-en-uruguay/contacto): Dirección (Feliciano Rodríguez 2690, Parque Batlle), horarios, teléfono y WhatsApp.
+- [Poder especial para matrimonio](https://wiki.araelespinosa.me/docs/migration/uruguay/consulado-cuba-en-uruguay/poder-especial-matrimonio): Requisitos, costo, pago y datos personales que exige el Consulado para este trámite.
+- [Contacto — Consulado de Cuba en Uruguay](https://wiki.araelespinosa.me/docs/migration/uruguay/consulado-cuba-en-uruguay/contacto): Dirección (Feliciano Rodríguez 2690, Parque Batlle), horarios, teléfono, WhatsApp, cita y pago de servicios.
 
 ## Cuba — Consulado de Uruguay en La Habana
 

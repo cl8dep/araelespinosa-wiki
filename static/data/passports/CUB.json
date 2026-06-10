@@ -1,6 +1,6 @@
 {
   "passport": "CUB",
-  "updated": "2026-05-07",
+  "updated": "2026-06-10",
   "destinations": {
     "AFG": {
       "tourism": {
@@ -1078,7 +1078,13 @@
     "TUR": {
       "tourism": {
         "requirement": "VR"
-      }
+      },
+      "transit": {
+        "requirement": "TF",
+        "maxStay": "24 horas",
+        "airsideOnly": true
+      },
+      "reviewed": true
     },
     "TUV": {
       "tourism": {
