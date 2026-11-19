@@ -7,10 +7,10 @@ import type * as Preset from '@docusaurus/preset-classic';
 const config: Config = {
   title: 'La Wiki de Arael Espinosa',
   tagline: 'Dando una mano',
-  favicon: 'img/logo.svg',
+  favicon: 'img/favicon.svg',
 
   stylesheets: [
-    'https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&display=swap',
+    'https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600&family=IBM+Plex+Sans:wght@400;500;600;700&display=swap',
   ],
 
   customFields: {
@@ -165,6 +165,7 @@ const config: Config = {
       logo: {
         alt: 'La Wiki de Arael Espinosa',
         src: 'img/logo.svg',
+        srcDark: 'img/logo-dark.svg',
       },
       items: [
         {

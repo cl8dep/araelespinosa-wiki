@@ -31,7 +31,7 @@ Lectores: personas migrantes, sobre todo de Cuba y Venezuela, que no conocen la 
 
 ## Marca
 
-Mismos tokens que el sitio de la gestoría (`src/css/custom.css`): verde `#1E5A47`, neutros cálidos, IBM Plex Sans y el monograma "AE". Botón principal: "Agendar diagnóstico". Nunca prometer resultados ni presentarse como abogado.
+Mismos tokens que el sitio de la gestoría (`src/css/custom.css`): verde `#1E5A47`, neutros cálidos, IBM Plex Sans para textos y Cormorant Garamond para el nombre. El logo es un sello con la ligadura "Æ" en serif (`static/img/logo.svg`, y `logo-dark.svg` para el modo oscuro); los favicons de 16 y 32 px usan una versión sin anillo y más gruesa (`favicon.svg`). Las letras del logo están convertidas a trazos, así que no dependen de que cargue la fuente. Botón principal: "Agendar diagnóstico". Nunca prometer resultados ni presentarse como abogado.
 
 ## Comandos
 

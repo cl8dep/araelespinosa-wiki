@@ -63,6 +63,12 @@
   --docusaurus-highlighted-code-line-bg: rgba(255, 255, 255, 0.1);
 }
 
+.navbar__title {
+  font-family: 'Cormorant Garamond', Georgia, serif;
+  font-size: 1.35rem;
+  font-weight: 600;
+}
+
 .navbar {
   border-bottom: 1px solid var(--brand-line);
   box-shadow: none;
