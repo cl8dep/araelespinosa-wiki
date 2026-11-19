@@ -31,8 +31,7 @@ El contenido está organizado por país. Use el menú lateral para navegar entre
 
 ## Aviso legal
 
-:::warning Descargo de responsabilidad
-
+:::warning[Descargo de responsabilidad]
 La información publicada en este sitio tiene carácter **informativo y orientativo**. Se elabora a partir de fuentes oficiales y experiencia práctica, pero **no constituye asesoramiento legal**.
 
 Los requisitos, costos y procedimientos pueden cambiar sin previo aviso. Se recomienda verificar siempre la información vigente directamente con el organismo correspondiente antes de iniciar cualquier trámite.
