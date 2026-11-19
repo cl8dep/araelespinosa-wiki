@@ -1,57 +1,16 @@
 ---
 sidebar_position: 3
-title: Residencia por Arraigo
-description: Guía sobre el trámite de Residencia por Arraigo en Uruguay para solicitantes de refugio y otras personas en situación irregular.
+title: Residencia por arraigo en Uruguay 2027
+description: Quién puede pedir la nueva residencia por arraigo en Uruguay, desde cuándo, qué documentos necesitas y qué pasa con tu pedido de refugio.
+keywords:
+  - residencia por arraigo
+  - residencia por arraigo 2027
+  - decreto 239/026
+  - solicitante de refugio Uruguay
+  - refugio denegado Uruguay
+  - regularización migratoria Uruguay
+  - residencia permanente Uruguay
 ---
-
-<script type="application/ld+json">{`{
-  "@context": "https://schema.org",
-  "@type": "HowTo",
-  "@id": "https://wiki.araelespinosa.me/docs/migration/uruguay/tramites/residencia-por-arraigo#howto",
-  "name": "Cómo obtener la Residencia por Arraigo en Uruguay",
-  "description": "Pasos para regularizar la situación migratoria en Uruguay mediante el programa Residencia por Arraigo (Decreto 138/024), disponible para ex solicitantes de refugio.",
-  "inLanguage": "es",
-  "step": [
-    {
-      "@type": "HowToStep",
-      "position": 1,
-      "name": "Iniciar el trámite en línea",
-      "text": "Ingresar a la plataforma de trámites del gobierno uruguayo y completar el formulario de solicitud de Residencia por Arraigo.",
-      "url": "https://www.gub.uy/tramites/residencia-arraigo"
-    },
-    {
-      "@type": "HowToStep",
-      "position": 2,
-      "name": "Subir la documentación digital",
-      "text": "Adjuntar los documentos requeridos: pasaporte, certificado de antecedentes penales, carné de salud, certificado de vacunación, foto carné y documentación específica según el tipo de arraigo (laboral, familiar o formación)."
-    },
-    {
-      "@type": "HowToStep",
-      "position": 3,
-      "name": "Recibir confirmación e instrucciones",
-      "text": "Se recibirá un correo electrónico con la confirmación de la solicitud e instrucciones para agendar la audiencia presencial."
-    },
-    {
-      "@type": "HowToStep",
-      "position": 4,
-      "name": "Asistir a la audiencia presencial",
-      "text": "Presentarse en la oficina correspondiente en la fecha y hora asignadas con toda la documentación en original."
-    },
-    {
-      "@type": "HowToStep",
-      "position": 5,
-      "name": "Obtener el certificado de residencia en trámite",
-      "text": "Una vez iniciado el expediente, se obtiene el certificado de residente en trámite, que permite trabajar legalmente y gestionar la cédula de identidad."
-    }
-  ],
-  "totalTime": "P3M",
-  "estimatedCost": {
-    "@type": "MonetaryAmount",
-    "currency": "UYU",
-    "value": "557.30",
-    "name": "557.30 Unidades Indexadas (UI)"
-  }
-}`}</script>
 
 <script type="application/ld+json">{`{
   "@context": "https://schema.org",
@@ -60,109 +19,154 @@ description: Guía sobre el trámite de Residencia por Arraigo en Uruguay para s
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "¿Puedo trabajar mientras espero la residencia por arraigo?",
+      "name": "¿Desde cuándo se puede pedir la nueva residencia por arraigo en Uruguay?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Sí, una vez iniciado el trámite y obtenido el certificado de residencia en trámite, puede trabajar legalmente en Uruguay."
+        "text": "El Decreto 239/026 se publicó el 26 de octubre de 2026 y empieza a regir 90 días después, alrededor del 24 de enero de 2027. Desde ese momento hay 12 meses para pedirla, y Migración puede extender ese plazo una sola vez por hasta 12 meses más."
       }
     },
     {
       "@type": "Question",
-      "name": "¿Puedo salir del país mientras tramito la residencia por arraigo?",
+      "name": "¿Quién puede pedir la residencia por arraigo?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "No es recomendable, pero en calidad de Residente en Trámite puede salir de Uruguay, previa tramitación del permiso de reingreso."
+        "text": "Las personas extranjeras que entraron a Uruguay antes del 1 de enero de 2026 por un paso de frontera oficial y que, o bien tienen una solicitud de refugio en trámite y están dispuestas a retirarla, o bien recibieron una respuesta negativa definitiva a su pedido de refugio."
       }
     },
     {
       "@type": "Question",
-      "name": "¿Cuánto demora el trámite de residencia por arraigo?",
+      "name": "¿Tengo que renunciar a mi solicitud de refugio para pedir el arraigo?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Varía según el caso, pero puede demorar entre 1 y 6 meses."
+        "text": "Sí. Si tu pedido de refugio sigue en trámite, tienes que retirarlo al iniciar la residencia por arraigo. El funcionario de Migración debe explicarte las consecuencias antes. El decreto aclara que, más adelante, puedes volver a pedir refugio si lo necesitas."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Qué residencia da el arraigo?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Residencia permanente. Al iniciar el trámite recibes un certificado para sacar una cédula provisoria como residente en trámite, y cuando te la otorgan, otro para la cédula definitiva."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Cuánto cuesta la residencia por arraigo de 2027?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "El Decreto 239/026 no fija costos. Migración todavía no publicó el trámite con sus tasas. Como referencia, en el programa anterior la residencia costaba 557,30 UI."
       }
     }
   ]
 }`}</script>
 
-# Residencia por Arraigo en Uruguay
+# Residencia por arraigo en Uruguay
 
-Desde el **16 de mayo de 2024**, con el [**Decreto Nº 138/024**](https://www.impo.com.uy/bases/decretos/138-2024), Uruguay habilitó una vía para regularizar la situación migratoria de personas que permanecen en el país tras solicitar refugio, a través del programa **Residencia por Arraigo**.
+Uruguay abre una nueva forma de conseguir la **residencia permanente** para personas que entraron al país pidiendo refugio. Se llama **residencia por arraigo** y la crea el [**Decreto 239/026**](https://www.impo.com.uy/bases/decretos/239-2026).
 
-:::warning
+:::warning[Todavía no se puede pedir]
 
-Este programa estará vigente hasta el **23 de noviembre de 2025**. Pasado ese plazo, las personas que no hayan regularizado su situación migratoria al amparo de este decreto, no podrán acceder a los beneficios del mismo. 
-
-:::
-
-## Tipos de Arraigo
-
-### 🧾 Arraigo Laboral
-
-Requiere haber trabajado o cotizado al menos 90 días en Uruguay (en relación de dependencia o como trabajador independiente).  
-👉 Otorga **residencia permanente**.
-
-### 👨‍👩‍👧 Arraigo Familiar
-
-Para quienes tienen vínculo directo con un residente legal o ciudadano uruguayo: cónyuge, hijos, padres o concubino/a reconocido judicialmente.  
-👉 Otorga **residencia permanente**.
-
-### 🎓 Arraigo por Formación
-
-Para personas que estudien por más de un año en una institución educativa habilitada por el Ministerio de Educación y Cultura (MEC).  
-👉 Otorga **residencia temporaria** (1 año, renovable).
-
-## Requisitos Generales
-
-- Haber entrado a Uruguay como Solicitante de Refugio **antes del 23 de mayo de 2024**.
-- Contar con una permanencia ininterrumpida superior 180 días en el territorio nacional.
-- No estar impedido por ley para residir en Uruguay.
-- Presentar la documentación requerida:
-  - Pasaporte o documento de viaje
-  - Certificado de antecedentes penales del país de origen y donde haya residido en los últimos 5 años
-  - Carné de salud
-  - Certificado de vacunación
-  - Foto carné
-  - Documentación según el tipo de arraigo. (Ver aquí los [requisitos específicos](https://www.gub.uy/tramites/residencia-arraigo#documentacion-requerida) para cada tipo de arraigo).
-
-:::info
-
-Si el país de origen no emite certificado de antecedentes penales, se puede justificar con una declaración jurada.
+El decreto se publicó el **26 de octubre de 2026** y empieza a regir **90 días después: alrededor del 24 de enero de 2027**. Antes de esa fecha Migración no recibe pedidos. Cuando la Dirección Nacional de Migración publique el trámite, actualizamos esta guía con los pasos y los costos.
 
 :::
 
-No podrán acceder a este programa quienes tengan antecedentes penales incompatibles con la residencia o se encuentren impedidos por otras disposiciones legales.
+## En resumen
 
-## Costos
+- **Para quién:** personas que entraron a Uruguay **antes del 1 de enero de 2026** y pidieron refugio.
+- **Qué te dan:** residencia **permanente** y, con ella, la cédula uruguaya.
+- **Plazo para pedirla:** **12 meses** desde que empieza a regir el decreto. Migración puede extenderlo **una sola vez**, por hasta 12 meses más.
+- **Lo más importante:** si tu pedido de refugio sigue abierto, **tienes que retirarlo** para usar esta vía.
 
-- Residencia por Arraigo: **557.30 UI** (aprox. 3.579 UYU)
-- Certificado migratorio para la cédula: **55.70 UI** (aprox. 358 UYU)
-- Permiso de reingreso (en caso de salir del país): **225.60 UI** (aprox. 1.450 UYU)
+## ¿Quién puede pedirla?
 
-:::tip
-Si estás en situación de vulnerabilidad económica, podés pedir la exoneración de tasas mediante MIDES.
+Tienes que cumplir **todo** esto:
+
+1. **Entraste a Uruguay antes del 1 de enero de 2026.**
+2. **Entraste por un paso de frontera oficial**, es decir, por un aeropuerto, puerto o puesto de frontera con control de Migración.
+3. **Estás en una de estas dos situaciones:**
+   - Tu pedido de refugio **sigue en trámite** y estás dispuesto a **retirarlo**.
+   - Te **negaron el refugio** y esa respuesta ya es **definitiva** (no queda ninguna apelación pendiente).
+4. **No hay nada en la ley que te impida vivir en Uruguay.** Por ejemplo, ciertos antecedentes penales graves.
+5. **No tienes otra forma de conseguir la residencia.** Si puedes acceder a otra residencia, por ejemplo la Mercosur o por tener familia uruguaya, Migración te va a pedir que uses esa otra vía.
+
+## ¿Qué documentos vas a necesitar?
+
+Según el decreto, tienes que presentar ante Migración:
+
+- **Foto carné.**
+- **Documento de identidad vigente y en buen estado** (por ejemplo, tu pasaporte).
+- **Certificado de antecedentes penales** de los países donde viviste **más de 180 días** durante los **5 años antes de llegar** a Uruguay. Tiene que estar **legalizado o apostillado**. Si no sabes cómo, mira la guía de [legalización de documentos](/docs/migration/cuba/consulado-uruguay-en-cuba/legalizacion-documentos).
+- **Prueba de que tienes de qué vivir**, ya sea por tus ingresos o por los de tu familia que vive en Uruguay. Tienes que demostrar un **ingreso mensual mayor al salario mínimo nacional** con uno de estos documentos, emitido hace **menos de 180 días**:
+  - tu **historia laboral del BPS**, o
+  - un **certificado de un escribano** que diga en qué trabajas y cuánto ganas.
+  - Si usas los ingresos de un familiar, también tienes que probar el **vínculo** con un documento oficial, como una partida de nacimiento o de matrimonio.
+- **Certificado de vacunas uruguayo.**
+
+Si pides la residencia para **niñas, niños o adolescentes**, Migración tiene que priorizar lo que sea mejor para ellos.
+
+
+## ¿Qué pasa con mi pedido de refugio?
+
+Si tu pedido de refugio **todavía está en trámite**, tienes que **retirarlo** cuando inicies la residencia por arraigo. Queda anotado en tu expediente y Migración avisa a la Comisión de Refugiados (CORE).
+
+Antes de que firmes, el funcionario de Migración **tiene que explicarte qué consecuencias tiene** retirar tu pedido. Pregunta todo lo que no entiendas.
+
+:::info[Puedes volver a pedir refugio]
+
+El decreto aclara que tener la residencia por arraigo **no te impide volver a pedir refugio** en el futuro, si lo necesitas.
+
 :::
 
-## Procedimiento
+## ¿Qué documentos recibes?
 
-1. Iniciá el trámite en línea desde la [página oficial](https://www.gub.uy/tramites/residencia-arraigo).
-2. Subí la documentación digital.
-3. Vas a recibir un correo con la confirmación e instrucciones para agendarte y presentar la documentación.
-4. Agendate para la audiencia presencial.
-5. Obtené tu certificado de residencia en trámite para empezar a gestionar tu cédula.
+1. **Al iniciar el trámite:** un certificado para sacar tu **cédula provisoria** como residente en trámite.
+2. **Cuando te otorgan la residencia:** un certificado para sacar tu **cédula definitiva** en la Dirección Nacional de Identificación Civil.
 
-:::info
-Este trámite es especialmente útil para quienes no lograron el reconocimiento como refugiados pero ya tienen vínculos con Uruguay o han trabajado o estudiado en el país.
-:::
+## ¿Cuánto cuesta?
 
+El Decreto 239/026 **no fija costos**. Migración todavía no publicó el trámite con sus tasas. Como referencia, en el programa anterior la residencia costaba **557,30 UI** y el certificado para la cédula **55,70 UI**. Actualizamos esta sección cuando se publiquen los valores nuevos.
+
+## ¿Cómo se pide?
+
+Migración todavía no publicó el procedimiento. Lo más probable es que funcione como otros trámites de residencia: un formulario en línea, una cita presencial y la presentación de los documentos originales. **Esto todavía no está confirmado.** Mientras tanto, lo que sí puedes hacer ya es **ir juntando los documentos**, sobre todo el certificado de antecedentes penales legalizado o apostillado, que suele ser lo que más demora.
+
+## Diferencias con el programa de 2024
+
+Entre mayo de 2024 y el **23 de noviembre de 2025** existió otra residencia por arraigo, creada por el [Decreto 138/024](https://www.impo.com.uy/bases/decretos/138-2024). Ese programa **ya cerró**.
+
+| | Programa 2024 (cerrado) | Programa 2027 (Decreto 239/026) |
+|---|---|---|
+| Fecha de llegada | Antes del 23 de mayo de 2024 | Antes del 1 de enero de 2026 |
+| Tipos | Laboral, familiar y por formación | Una sola vía: hay que probar ingresos propios o de tu familia |
+| Residencia que da | Permanente (laboral y familiar) o temporaria (formación) | Permanente |
+| Plazo para pedirla | Hasta el 23 de noviembre de 2025 | 12 meses desde que rige, con una posible extensión |
 
 ## Preguntas frecuentes
 
-- ¿Puedo trabajar mientras espero la residencia por arraigo?
-  Sí, una vez iniciado el trámite, puedes trabajar legalmente.
+### ¿Desde cuándo se puede pedir?
 
-- ¿Puedo salir del país mientras lo tramito?
-  No es recomendable pero en la calidad de Residente en Trámites puedes salir de Uruguay, previa tramitación del permiso de reingreso.
+Desde que empiece a regir el decreto, **alrededor del 24 de enero de 2027**. Desde ese momento tienes **12 meses**, y Migración puede extender el plazo **una sola vez** por hasta 12 meses más.
 
-- ¿Cuánto demora el trámite?
-  Varía según el caso, pero puede demorar entre 1 y 6 meses.
+### Llegué en 2026, ¿puedo pedirla?
+
+No. El decreto solo incluye a quienes **entraron antes del 1 de enero de 2026**.
+
+### Entré por un paso no habilitado, ¿puedo pedirla?
+
+Según el decreto, no: hay que haber entrado **por un paso de frontera oficial**. Si es tu caso, conviene que consultes tu situación antes de hacer cualquier trámite.
+
+### ¿Tengo que tener trabajo formal?
+
+Tienes que probar que tienes **de qué vivir**, con ingresos mayores al **salario mínimo nacional**. Puede ser tu trabajo, demostrado con la historia laboral del BPS o con un certificado de escribano, o los ingresos de tu familia que vive en Uruguay.
+
+### ¿Puedo salir del país mientras tramito la residencia?
+
+El decreto no lo dice. En otros trámites de residencia, quien está en trámite necesita un **permiso de reingreso** antes de viajar. Confírmalo con Migración antes de salir.
+
+:::info[¿Necesitas ayuda con este trámite?]
+
+Si no sabes si cumples los requisitos o qué documentos te faltan, puedes [agendar una llamada de diagnóstico](https://calendar.app.google/6ctCtPm8ackvGKa58) y lo revisamos juntos.
+
+:::
+
+<small>Fuente: [Decreto N° 239/026](https://www.impo.com.uy/bases/decretos/239-2026), publicado en el Diario Oficial el 26/10/2026. Esta guía es informativa y no constituye asesoramiento letrado.</small>
