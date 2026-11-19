@@ -1,5 +1,4 @@
 import type {ReactNode} from 'react';
-import clsx from 'clsx';
 import Link from '@docusaurus/Link';
 import Layout from '@theme/Layout';
 import Heading from '@theme/Heading';
@@ -9,14 +8,17 @@ import {
   Globe,
   RefreshCw,
   MessageCircle,
-  Mail,
 } from 'lucide-react';
 
+import type {Graph} from 'schema-dts';
+import Newsletter from '@site/src/components/Newsletter';
 import styles from './index.module.css';
 
 const SITE_URL = 'https://wiki.araelespinosa.me';
 
-const jsonLd = {
+const MAIN_SITE = 'https://www.araelespinosa.me';
+
+const jsonLd: Graph = {
   '@context': 'https://schema.org',
   '@graph': [
     {
@@ -27,27 +29,20 @@ const jsonLd = {
       description:
         'Guía práctica sobre migración y trámites consulares — residencia, cédula, pasaporte y más, explicados en detalle.',
       inLanguage: 'es',
-      publisher: {
-        '@id': `${SITE_URL}/#organization`,
-      },
-      potentialAction: {
-        '@type': 'SearchAction',
-        target: {
-          '@type': 'EntryPoint',
-          urlTemplate: `${SITE_URL}/search?q={search_term_string}`,
-        },
-        'query-input': 'required name=search_term_string',
-      },
+      publisher: {'@id': `${MAIN_SITE}/#person`},
     },
     {
-      '@type': 'Organization',
-      '@id': `${SITE_URL}/#organization`,
+      '@type': 'Person',
+      '@id': `${MAIN_SITE}/#person`,
       name: 'Arael Espinosa',
-      url: SITE_URL,
+      jobTitle: 'Asesor en trámites migratorios',
+      url: MAIN_SITE,
       sameAs: [
-        'https://instagram.com/araeal_espinosa',
+        SITE_URL,
+        'https://instagram.com/arael_espinosa',
         'https://youtube.com/@elvlogdepaco',
         'https://tiktok.com/@arael_espinosa',
+        'https://share.google/RJA7kHAySVSdbmWmF',
       ],
       contactPoint: {
         '@type': 'ContactPoint',
@@ -91,7 +86,7 @@ const countries = [
     name: 'Panamá',
     iso2: 'pa',
     description: 'Recursos e información para cubanos en tránsito o residentes en Panamá.',
-    link: '/docs/category/panama',
+    link: '/docs/category/panamá',
   },
   {
     name: 'Uruguay',
@@ -103,8 +98,9 @@ const countries = [
 
 function HomepageHeader() {
   return (
-    <header className={clsx('hero hero--primary', styles.heroBanner)}>
+    <header className={styles.heroBanner}>
       <div className="container">
+        <span className={styles.eyebrow}>La Wiki de Arael Espinosa</span>
         <Heading as="h1" className={styles.heroTitle}>
           Trámites de migración, sin complicaciones
         </Heading>
@@ -113,10 +109,10 @@ function HomepageHeader() {
           Información clara, actualizada y con fuentes oficiales.
         </p>
         <div className={styles.heroButtons}>
-          <Link className="button button--lg button--secondary" to="/docs/migration/uruguay">
+          <Link className="button button--lg button--primary" to="/docs/category/uruguay">
             Ver trámites en Uruguay
           </Link>
-          <Link className={clsx('button button--lg', styles.buttonOutline)} to="/docs/migration/cuba">
+          <Link className="button button--lg button--outline button--primary" to="/docs/category/consulado-de-uruguay-en-cuba">
             Consulado de Uruguay en Cuba
           </Link>
         </div>
@@ -183,27 +179,30 @@ function CTASection() {
     <section className={styles.ctaSection}>
       <div className="container">
         <div className={styles.ctaBox}>
-          <Heading as="h2" className={styles.ctaTitle}>
-            ¿Necesita ayuda con un trámite?
-          </Heading>
-          <p className={styles.ctaText}>
-            Soy gestor y puedo asesorarle en la preparación de documentos y acompañarle
-            durante todo el proceso migratorio o consular.
-          </p>
+          <div>
+            <Heading as="h2" className={styles.ctaTitle}>
+              ¿Necesita ayuda con un trámite?
+            </Heading>
+            <p className={styles.ctaText}>
+              Soy gestor y puedo asesorarle en la preparación de documentos y acompañarle
+              durante todo el proceso migratorio o consular. Empezamos con una llamada de diagnóstico.
+            </p>
+          </div>
           <div className={styles.ctaButtons}>
             <a
-              href="https://wa.me/59899598034"
-              className="button button--lg button--success"
+              href="https://calendar.app.google/6ctCtPm8ackvGKa58"
+              className={styles.ctaPrimary}
               target="_blank"
               rel="noopener noreferrer">
-              <MessageCircle size={18} style={{marginRight: '0.5rem', verticalAlign: 'middle'}} />
-              +598 99 598 034
+              Agendar llamada de diagnóstico
             </a>
             <a
-              href="mailto:gestoria@araelespinosa.me"
-              className={clsx('button button--lg', styles.buttonOutlineDark)}>
-              <Mail size={18} style={{marginRight: '0.5rem', verticalAlign: 'middle'}} />
-              gestoria@araelespinosa.me
+              href="https://wa.me/59899598034"
+              className={styles.ctaSecondary}
+              target="_blank"
+              rel="noopener noreferrer">
+              <MessageCircle size={18} aria-hidden="true" />
+              Escribir por WhatsApp
             </a>
           </div>
         </div>
@@ -226,6 +225,11 @@ export default function Home(): ReactNode {
       <main>
         <FeaturesSection />
         <CountriesSection />
+        <section className={styles.newsletterSection}>
+          <div className="container">
+            <Newsletter />
+          </div>
+        </section>
         <CTASection />
       </main>
     </Layout>

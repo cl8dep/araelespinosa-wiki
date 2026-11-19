@@ -110,12 +110,11 @@ Los trámites consulares **se cobran únicamente en pesos uruguayos**.
 Si gestiona el trámite **a nombre de otra persona**, también debe abonar el **trámite no personal: 1.250,00 pesos uruguayos**. En el caso de **menores de edad**, el trámite no personal no implica costo.
 
 
-:::note Información sujeta a cambios
+:::note[Información sujeta a cambios]
 La información de esta página se basa en los datos oficiales publicados por el Consulado de Cuba en Uruguay. Los requisitos, costos y procedimientos pueden actualizarse sin previo aviso. Se recomienda verificar la información vigente directamente en el [sitio oficial del Consulado](https://misiones.cubaminrex.cu/es/uruguay/servicios-consulares) antes de iniciar el trámite.
 :::
 
-:::info **¿Necesita ayuda para gestionar su pasaporte?**
-
+:::info[¿Necesita ayuda para gestionar su pasaporte?]
 Soy gestor y puedo asesorarle en la preparación de documentos y acompañarle durante todo el proceso. Contácteme:
 
 - **WhatsApp**: [+598 99 598 034](https://wa.me/59899598034)

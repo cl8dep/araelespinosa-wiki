@@ -19,6 +19,7 @@
   "dependencies": {
     "@docusaurus/core": "3.10.1",
     "@docusaurus/faster": "^3.10.1",
+    "@docusaurus/plugin-content-docs": "3.10.1",
     "@docusaurus/preset-classic": "3.10.1",
     "@mdx-js/react": "^3.0.0",
     "clsx": "^2.0.0",
@@ -37,6 +38,7 @@
     "@types/d3-scale": "^4.0.9",
     "@types/jsdom": "^28.0.1",
     "jsdom": "^29.1.1",
+    "schema-dts": "^2.1.0",
     "typescript": "~5.6.2"
   },
   "browserslist": {

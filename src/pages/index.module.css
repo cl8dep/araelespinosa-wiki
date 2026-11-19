@@ -1,235 +1,231 @@
-/**
- * CSS files with the .module.css suffix will be treated as CSS modules
- * and scoped locally.
- */
-
 /* ── Hero ── */
 .heroBanner {
-  padding: 5rem 0;
-  text-align: center;
-  position: relative;
-  overflow: hidden;
+  padding: 5rem 0 4.5rem;
+  background: var(--brand-surface);
+  border-bottom: 1px solid var(--brand-line);
 }
 
-@media screen and (max-width: 996px) {
-  .heroBanner {
-    padding: 3rem 1.5rem;
-  }
+.eyebrow {
+  display: inline-block;
+  margin-bottom: 1.25rem;
+  padding: 0.35rem 0.75rem;
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: var(--ifm-color-primary);
+  background: var(--brand-soft);
+  border-radius: 999px;
 }
 
 .heroTitle {
-  font-size: 2.75rem;
-  font-weight: 800;
-  line-height: 1.2;
-  margin-bottom: 1rem;
-}
-
-@media screen and (max-width: 996px) {
-  .heroTitle {
-    font-size: 2rem;
-  }
+  max-width: 760px;
+  font-size: 3rem;
+  line-height: 1.12;
+  letter-spacing: -0.02em;
+  margin-bottom: 1.25rem;
+  color: var(--brand-ink);
 }
 
 .heroSubtitle {
+  max-width: 620px;
+  margin: 0 0 2rem;
   font-size: 1.15rem;
-  opacity: 0.9;
-  max-width: 600px;
-  margin: 0 auto 2rem;
-  line-height: 1.6;
+  line-height: 1.65;
+  color: var(--brand-ink-secondary);
 }
 
 .heroButtons {
   display: flex;
-  gap: 1rem;
-  justify-content: center;
+  gap: 0.75rem;
   flex-wrap: wrap;
 }
 
-.buttonOutline {
-  background: transparent;
-  border: 2px solid #fff;
-  color: #fff !important;
-}
+@media screen and (max-width: 996px) {
+  .heroBanner {
+    padding: 3rem 0;
+  }
 
-.buttonOutline:hover {
-  background: rgba(255, 255, 255, 0.15);
+  .heroTitle {
+    font-size: 2.1rem;
+  }
 }
 
 /* ── Shared ── */
 .sectionTitle {
-  text-align: center;
-  font-size: 1.75rem;
-  font-weight: 700;
-  margin-bottom: 2.5rem;
+  font-size: 1.85rem;
+  letter-spacing: -0.01em;
+  margin-bottom: 2rem;
+  color: var(--brand-ink);
 }
 
 /* ── Features ── */
-.featuresSection {
-  padding: 4rem 0;
-  background-color: #f9fafb;
+.featuresSection,
+.countriesSection {
+  padding: 4.5rem 0 0;
 }
 
-.featuresGrid {
+.featuresGrid,
+.countriesGrid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 1.5rem;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1.25rem;
 }
 
 @media screen and (max-width: 996px) {
-  .featuresGrid {
+  .featuresGrid,
+  .countriesGrid {
     grid-template-columns: 1fr;
   }
 }
 
-.featureCard {
-  background: #fff;
-  border-radius: 12px;
-  padding: 2rem;
-  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.06);
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
-  text-align: center;
-}
-
-.featureCard:hover {
-  transform: translateY(-4px);
-  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+.featureCard,
+.countryCard {
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+  background: var(--brand-surface);
+  border: 1px solid var(--brand-line);
+  border-radius: 0.75rem;
+  padding: 1.75rem;
 }
 
 .featureIconWrap {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 56px;
-  height: 56px;
-  background: var(--ifm-color-primary-lightest);
-  border-radius: 12px;
-  margin: 0 auto 1rem;
+  width: 44px;
+  height: 44px;
   color: var(--ifm-color-primary);
+  background: var(--brand-soft);
+  border-radius: 0.5rem;
 }
 
-.featureTitle {
+.featureTitle,
+.countryName {
+  margin: 0.4rem 0 0;
   font-size: 1.1rem;
-  font-weight: 700;
-  margin-bottom: 0.5rem;
-  color: #1a1a1a;
+  color: var(--brand-ink);
 }
 
-.featureDesc {
-  color: #555;
+.featureDesc,
+.countryDesc {
+  margin: 0;
   font-size: 0.95rem;
   line-height: 1.6;
-  margin: 0;
+  color: var(--brand-muted);
 }
 
 /* ── Countries ── */
-.countriesSection {
-  padding: 4rem 0;
-}
-
-.countriesGrid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 1.5rem;
-}
-
-@media screen and (max-width: 996px) {
-  .countriesGrid {
-    grid-template-columns: 1fr;
-  }
-}
-
 .countryCard {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-  background: #fff;
-  border: 1px solid #e5e7eb;
-  border-radius: 12px;
-  padding: 2rem;
   text-decoration: none !important;
   color: inherit !important;
-  transition: border-color 0.2s ease, box-shadow 0.2s ease, transform 0.2s ease;
+  transition: border-color 0.2s ease;
 }
 
 .countryCard:hover {
-  border-color: var(--ifm-color-primary);
-  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
-  transform: translateY(-3px);
+  border-color: var(--ifm-color-primary-lighter);
 }
 
 .countryIconWrap {
-  display: flex;
-  align-items: center;
-  justify-content: center;
   width: 48px;
   height: 36px;
-  background: transparent;
-  border-radius: 4px;
-  margin-bottom: 0.75rem;
   overflow: hidden;
-  color: var(--ifm-color-primary);
-}
-
-.countryName {
-  font-size: 1.2rem;
-  font-weight: 700;
-  margin-bottom: 0.5rem;
-  color: #1a1a1a;
+  border-radius: 4px;
 }
 
 .countryDesc {
-  font-size: 0.9rem;
-  color: #666;
-  line-height: 1.5;
   flex: 1;
-  margin-bottom: 1rem;
 }
 
 .countryLink {
+  margin-top: 0.4rem;
   font-size: 0.9rem;
-  font-weight: 600;
+  font-weight: 500;
   color: var(--ifm-color-primary);
+}
+
+/* ── Newsletter ── */
+.newsletterSection {
+  padding: 4.5rem 0 0;
 }
 
 /* ── CTA ── */
 .ctaSection {
-  padding: 4rem 0;
-  background-color: #f0f4ff;
+  padding: 4.5rem 0;
 }
 
 .ctaBox {
-  text-align: center;
-  max-width: 640px;
-  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+  padding: 3rem;
+  background: var(--brand-deep);
+  border-radius: 1rem;
+}
+
+.ctaBox > * {
+  flex: 1 1 320px;
 }
 
 .ctaTitle {
-  font-size: 1.75rem;
-  font-weight: 700;
-  margin-bottom: 1rem;
+  font-size: 1.85rem;
+  color: #fff;
+  margin-bottom: 0.75rem;
 }
 
 .ctaText {
-  font-size: 1rem;
-  color: #444;
+  margin: 0;
+  font-size: 1.05rem;
   line-height: 1.6;
-  margin-bottom: 2rem;
+  color: var(--brand-deep-foreground);
 }
 
 .ctaButtons {
   display: flex;
-  gap: 1rem;
-  justify-content: center;
   flex-wrap: wrap;
+  gap: 0.75rem;
+  justify-content: flex-end;
 }
 
-.buttonOutlineDark {
-  background: transparent;
-  border: 2px solid var(--ifm-color-primary);
-  color: var(--ifm-color-primary) !important;
+.ctaPrimary,
+.ctaSecondary {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  min-height: 48px;
+  padding: 0 1.5rem;
+  font-weight: 500;
+  border-radius: 0.5rem;
+  text-decoration: none !important;
 }
 
-.buttonOutlineDark:hover {
-  background: var(--ifm-color-primary-lightest);
+.ctaPrimary {
+  color: var(--brand-deep) !important;
+  background: #fff;
+}
+
+.ctaPrimary:hover {
+  background: rgba(255, 255, 255, 0.9);
+}
+
+.ctaSecondary {
+  color: #fff !important;
+  border: 1px solid rgba(255, 255, 255, 0.4);
+}
+
+.ctaSecondary:hover {
+  background: rgba(255, 255, 255, 0.1);
+}
+
+@media screen and (max-width: 996px) {
+  .ctaBox {
+    padding: 2rem 1.5rem;
+  }
+
+  .ctaButtons {
+    justify-content: flex-start;
+  }
 }

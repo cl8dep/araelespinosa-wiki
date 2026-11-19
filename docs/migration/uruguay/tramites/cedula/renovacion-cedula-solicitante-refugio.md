@@ -186,8 +186,7 @@ Revisá que toda la documentación esté vigente antes de la cita para evitar in
 
 :::
 
-:::info **¿Necesitás ayuda con este trámite?**
-
+:::info[¿Necesitás ayuda con este trámite?]
 En nuestra gestoría realizamos todo el proceso por vos. Contactanos para asesorarte:
 
 - **WhatsApp**: [+598 99 598 034](https://wa.me/59899598034)
