@@ -30,7 +30,7 @@ export default function NotFound(): ReactNode {
           <Link className="button button--primary button--lg" to="/">
             Inicio
           </Link>
-          <Link className="button button--secondary button--lg" to="/docs/migration">
+          <Link className="button button--secondary button--lg" to="/docs/migration/intro">
             Migración
           </Link>
           <Link className="button button--secondary button--lg" to="/stats/intro">

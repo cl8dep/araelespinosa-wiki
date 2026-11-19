@@ -7,7 +7,16 @@ import type * as Preset from '@docusaurus/preset-classic';
 const config: Config = {
   title: 'La Wiki de Arael Espinosa',
   tagline: 'Dando una mano',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/logo.svg',
+
+  stylesheets: [
+    'https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&display=swap',
+  ],
+
+  customFields: {
+    // Kit (kit.com) form id for the newsletter; the form stays hidden while empty.
+    kitFormId: '10212911',
+  },
 
   future: {
     v4: true, 
@@ -61,8 +70,7 @@ const config: Config = {
       {
         docs: {
           sidebarPath: './sidebars.ts',
-          editUrl:
-            'https://github.com/cl8dep/araelespinosa-blog/blob/master/sidebars.ts',
+          editUrl: 'https://github.com/cl8dep/araelespinosa-wiki/edit/master/',
           onInlineTags: "warn",
           showLastUpdateTime: true,
           showLastUpdateAuthor: false,
@@ -124,7 +132,7 @@ const config: Config = {
   ],
 
   themeConfig: {
-    image: 'img/docusaurus-social-card.jpg',
+    image: 'img/social-card.jpg',
     metadata: [
       {
         name: 'description',
@@ -139,7 +147,7 @@ const config: Config = {
         content:
           'Guía práctica sobre migración a Uruguay — trámites de residencia, cédula, banca y estadísticas oficiales sobre inmigración, explicados en detalle.',
       },
-      {name: 'og:image', content: 'https://wiki.araelespinosa.me/img/docusaurus-social-card.jpg'},
+      {name: 'og:image', content: 'https://wiki.araelespinosa.me/img/social-card.jpg'},
       {name: 'og:image:width', content: '1200'},
       {name: 'og:image:height', content: '630'},
       {name: 'twitter:card', content: 'summary_large_image'},
@@ -149,13 +157,13 @@ const config: Config = {
         content:
           'Guía práctica sobre migración a Uruguay — trámites de residencia, cédula, banca y estadísticas oficiales.',
       },
-      {name: 'twitter:image', content: 'https://wiki.araelespinosa.me/img/docusaurus-social-card.jpg'},
+      {name: 'twitter:image', content: 'https://wiki.araelespinosa.me/img/social-card.jpg'},
     ],
     navbar: {
       title: 'La Wiki de Arael Espinosa',
       logo: {
         alt: 'La Wiki de Arael Espinosa',
-        src: 'img/favicon-32x32.png',
+        src: 'img/logo.svg',
       },
       items: [
         {
@@ -173,9 +181,10 @@ const config: Config = {
         },
         {to: '/visas', label: 'Visas', position: 'left'},
         {
-          href: 'https://github.com/cl8dep/araelespinosa-blog',
-          label: 'GitHub',
+          href: 'https://calendar.app.google/6ctCtPm8ackvGKa58',
+          label: 'Agendar diagnóstico',
           position: 'right',
+          className: 'navbar__cta',
         },
       ],
     },
@@ -187,7 +196,7 @@ const config: Config = {
           items: [
             {
               label: 'Migración',
-              to: '/docs/migration',
+              to: '/docs/migration/intro',
             },
           ],
         },
@@ -205,7 +214,7 @@ const config: Config = {
           items: [
             {
               label: 'Instagram',
-              href: 'https://instagram.com/araeal_espinosa',
+              href: 'https://instagram.com/arael_espinosa',
             },
             {
               label: 'Youtube',
@@ -220,6 +229,14 @@ const config: Config = {
         {
           title: 'Gestoría',
           items: [
+            {
+              label: 'Agendar diagnóstico',
+              href: 'https://calendar.app.google/6ctCtPm8ackvGKa58',
+            },
+            {
+              label: 'Sitio web',
+              href: 'https://www.araelespinosa.me',
+            },
             {
               label: 'WhatsApp',
               href: 'https://wa.me/59899598034',
@@ -244,7 +261,7 @@ const config: Config = {
         //   ],
         // },
       ],
-      copyright: `Copyright © Arael Espinosa, ${new Date().getFullYear()}. Built with Docusaurus.`,
+      copyright: `© ${new Date().getFullYear()} Arael Espinosa. La información de esta wiki no constituye asesoramiento letrado.`,
     },
     prism: {
       theme: prismThemes.github,
