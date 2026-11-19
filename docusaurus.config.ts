@@ -50,6 +50,7 @@ const config: Config = {
 
   plugins: [
     './plugins/breadcrumb-schema',
+    './plugins/llms-txt',
     [
       '@docusaurus/plugin-content-docs',
       {

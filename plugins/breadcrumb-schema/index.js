@@ -43,7 +43,7 @@ function getLabel(segment) {
   return LABEL_MAP[segment] || segment.replace(/-/g, ' ');
 }
 
-function buildBreadcrumbList(routePath, baseUrl) {
+function buildBreadcrumbList(routePath, baseUrl, outDir) {
   // Strip leading/trailing slashes, split into segments
   const segments = routePath.replace(/^\/|\/$/g, '').split('/').filter(Boolean);
 
@@ -59,8 +59,12 @@ function buildBreadcrumbList(routePath, baseUrl) {
 
   // Build intermediate crumbs (skip the last segment — that's the current page)
   let accumulated = baseUrl;
+  let accumulatedPath = '';
   for (let i = 0; i < segments.length - 1; i++) {
     accumulated = `${accumulated}/${segments[i]}`;
+    accumulatedPath = `${accumulatedPath}/${segments[i]}`;
+    // Google rejects breadcrumb items pointing to URLs that don't exist (e.g. /docs/migration/uruguay).
+    if (!fs.existsSync(path.join(outDir, accumulatedPath, 'index.html'))) continue;
     items.push({
       '@type': 'ListItem',
       position: items.length + 1,
@@ -106,7 +110,7 @@ module.exports = function breadcrumbSchemaPlugin(_context, _options) {
           if (ignored.some((p) => routePath.startsWith(p))) return;
           if (routePath === '/') return;
 
-          const breadcrumb = buildBreadcrumbList(routePath, baseUrl);
+          const breadcrumb = buildBreadcrumbList(routePath, baseUrl, outDir);
           if (!breadcrumb) return;
 
           // Resolve path to the generated HTML file

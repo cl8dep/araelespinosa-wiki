@@ -10,12 +10,15 @@ import {
   MessageCircle,
 } from 'lucide-react';
 
+import type {Graph} from 'schema-dts';
 import Newsletter from '@site/src/components/Newsletter';
 import styles from './index.module.css';
 
 const SITE_URL = 'https://wiki.araelespinosa.me';
 
-const jsonLd = {
+const MAIN_SITE = 'https://www.araelespinosa.me';
+
+const jsonLd: Graph = {
   '@context': 'https://schema.org',
   '@graph': [
     {
@@ -26,27 +29,20 @@ const jsonLd = {
       description:
         'Guía práctica sobre migración y trámites consulares — residencia, cédula, pasaporte y más, explicados en detalle.',
       inLanguage: 'es',
-      publisher: {
-        '@id': `${SITE_URL}/#organization`,
-      },
-      potentialAction: {
-        '@type': 'SearchAction',
-        target: {
-          '@type': 'EntryPoint',
-          urlTemplate: `${SITE_URL}/search?q={search_term_string}`,
-        },
-        'query-input': 'required name=search_term_string',
-      },
+      publisher: {'@id': `${MAIN_SITE}/#person`},
     },
     {
-      '@type': 'Organization',
-      '@id': `${SITE_URL}/#organization`,
+      '@type': 'Person',
+      '@id': `${MAIN_SITE}/#person`,
       name: 'Arael Espinosa',
-      url: SITE_URL,
+      jobTitle: 'Asesor en trámites migratorios',
+      url: MAIN_SITE,
       sameAs: [
+        SITE_URL,
         'https://instagram.com/arael_espinosa',
         'https://youtube.com/@elvlogdepaco',
         'https://tiktok.com/@arael_espinosa',
+        'https://share.google/RJA7kHAySVSdbmWmF',
       ],
       contactPoint: {
         '@type': 'ContactPoint',
